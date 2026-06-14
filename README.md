@@ -7,7 +7,16 @@ This repository contains tests and comparison of different Copilot customization
 ### Test 1 - PnP PowerShell setup
 
 This test evaluates how well Copilot performs in setting up you local environment for using PnP PowerShell.
+
 [Summary of Test 1 - PnP PowerShell setup](test-1-pnp-ps-setup/summary.md)
+
+### Test 2 - Scaffolding a SharePoint Communications site with Content Type and List and a few items
+
+// 🏗️ Work in progress
+
+### Test 3 - Create a PowerShell script that uses PnP PowerShell to migrate files between libraries on different SharePoint sites
+
+// 🏗️ Work in progress
 
 ## Harness
 
