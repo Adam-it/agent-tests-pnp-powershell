@@ -1,0 +1,2085 @@
+{
+  "resourceSpans": [
+    {
+      "resource": {
+        "attributes": [
+          {
+            "key": "service.name",
+            "value": {
+              "stringValue": "copilot-chat"
+            }
+          },
+          {
+            "key": "session.id",
+            "value": {
+              "stringValue": "a665de40-2559-43b2-bf39-e2e4bb77696b"
+            }
+          }
+        ]
+      },
+      "scopeSpans": [
+        {
+          "scope": {
+            "name": "copilot-chat"
+          },
+          "spans": [
+            {
+              "traceId": "exported-trace",
+              "spanId": "session-start-a665de40-2559-43b2-bf39-e2e4bb77696b",
+              "name": "session_start",
+              "kind": 1,
+              "startTimeUnixNano": "1781474357344000000",
+              "endTimeUnixNano": "1781474357344000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "4ce8a2a3-dfdd-43b7-82e3-89520fd9db37",
+              "name": "Agent Discovery",
+              "kind": 1,
+              "startTimeUnixNano": "1781474327990000000",
+              "endTimeUnixNano": "1781474327990000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                },
+                {
+                  "key": "copilot_chat.event_details",
+                  "value": {
+                    "stringValue": "Resolved 4 agents in 688.5ms | loaded: [Plan, Ask, Explore, co-maintainer] | folders: [/c:/Users/adamw/.copilot/agents, /c:/Users/adamw/.claude/agents, /C:/Users/adamw/AppData/Roaming/Code/User/prompts, /D:/clean-folder/.github/agents, /D:/clean-folder/.claude/agents]"
+                  }
+                },
+                {
+                  "key": "copilot_chat.event_category",
+                  "value": {
+                    "stringValue": "discovery"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "77ea7f77-e364-4906-8846-79bf14ef4a66",
+              "name": "Instructions Discovery",
+              "kind": 1,
+              "startTimeUnixNano": "1781474327993000000",
+              "endTimeUnixNano": "1781474327993000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                },
+                {
+                  "key": "copilot_chat.event_details",
+                  "value": {
+                    "stringValue": "Resolved 0 instructions in 701.7ms | folders: [/c:/Users/adamw/.copilot/instructions, /c:/Users/adamw/.claude/rules, /C:/Users/adamw/AppData/Roaming/Code/User/prompts, /D:/clean-folder/.github/instructions, /D:/clean-folder/.claude/rules]"
+                  }
+                },
+                {
+                  "key": "copilot_chat.event_category",
+                  "value": {
+                    "stringValue": "discovery"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "0eb8e856-6f00-4b53-8b01-866a997afcdd",
+              "name": "Slash Commands Discovery",
+              "kind": 1,
+              "startTimeUnixNano": "1781474327994000000",
+              "endTimeUnixNano": "1781474327994000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                },
+                {
+                  "key": "copilot_chat.event_details",
+                  "value": {
+                    "stringValue": "Resolved 25 slash commands in 52.9ms | loaded: [plan, adam-it-ai-co-maintainer-copilot-plugin:generate-marketing-posts, adam-it-ai-co-maintainer-copilot-plugin:gh-pr-review, adam-it-ai-co-maintainer-copilot-plugin:local-pr-review, project-setup-info-local, get-search-view-results, troubleshoot, agent-customization, init, create-prompt, create-instructions, create-skill, create-agent, create-hook, summarize-github-issue-pr-notification, suggest-fix-issue, form-github-search-query, show-github-search-result, address-pr-comments, create-pull-request, analyze-prompt, fix-customization-evaluation-diagnostics, adam-it-ai-co-maintainer-copilot-plugin:generate-marketing-posts, adam-it-ai-co-maintainer-copilot-plugin:gh-pr-review, adam-it-ai-co-maintainer-copilot-plugin:local-pr-review] | folders: [/C:/Users/adamw/AppData/Roaming/Code/User/prompts, /D:/clean-folder/.github/prompts, /c:/Users/adamw/.agents/skills, /c:/Users/adamw/.copilot/skills, /c:/Users/adamw/.claude/skills, /D:/clean-folder/.agents/skills, /D:/clean-folder/.github/skills, /D:/clean-folder/.claude/skills]"
+                  }
+                },
+                {
+                  "key": "copilot_chat.event_category",
+                  "value": {
+                    "stringValue": "discovery"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "2c20b302-9bad-4a20-a0e7-7071ee50868b",
+              "name": "Skill Discovery",
+              "kind": 1,
+              "startTimeUnixNano": "1781474327995000000",
+              "endTimeUnixNano": "1781474327995000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                },
+                {
+                  "key": "copilot_chat.event_details",
+                  "value": {
+                    "stringValue": "Resolved 21 skills in 43.4ms | loaded: [generate-marketing-posts, gh-pr-review, local-pr-review, project-setup-info-local, get-search-view-results, troubleshoot, agent-customization, init, create-prompt, create-instructions, create-skill, create-agent, create-hook, summarize-github-issue-pr-notification, suggest-fix-issue, form-github-search-query, show-github-search-result, address-pr-comments, create-pull-request, analyze-prompt, fix-customization-evaluation-diagnostics] | folders: [/c:/Users/adamw/.agents/skills, /c:/Users/adamw/.copilot/skills, /c:/Users/adamw/.claude/skills, /D:/clean-folder/.agents/skills, /D:/clean-folder/.github/skills, /D:/clean-folder/.claude/skills]"
+                  }
+                },
+                {
+                  "key": "copilot_chat.event_category",
+                  "value": {
+                    "stringValue": "discovery"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "158ef9cf-3046-4c65-b227-aa3b0ab9b4ac",
+              "name": "Hook Discovery",
+              "kind": 1,
+              "startTimeUnixNano": "1781474327995000000",
+              "endTimeUnixNano": "1781474327995000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                },
+                {
+                  "key": "copilot_chat.event_details",
+                  "value": {
+                    "stringValue": "Resolved 0 hooks in 96.9ms | folders: [/c:/Users/adamw/.copilot/hooks, /c:/Users/adamw/.claude/settings.json, /D:/clean-folder/.github/hooks, /D:/clean-folder/.claude/settings.local.json, /D:/clean-folder/.claude/settings.json]"
+                  }
+                },
+                {
+                  "key": "copilot_chat.event_category",
+                  "value": {
+                    "stringValue": "discovery"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "0000000000000010",
+              "name": "user_message",
+              "kind": 1,
+              "startTimeUnixNano": "1781474357344000000",
+              "endTimeUnixNano": "1781474357344000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_start-0000000000000010-0",
+              "name": "turn_start:0",
+              "kind": 1,
+              "startTimeUnixNano": "1781474357344000000",
+              "endTimeUnixNano": "1781474357344000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "b1369fad-e3b5-4dda-982c-bd7b5aa6008a",
+              "name": "Agent Discovery",
+              "kind": 1,
+              "startTimeUnixNano": "1781474357390000000",
+              "endTimeUnixNano": "1781474357390000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                },
+                {
+                  "key": "copilot_chat.event_details",
+                  "value": {
+                    "stringValue": "Resolved 4 agents in 140.6ms | loaded: [Plan, Ask, Explore, co-maintainer] | folders: [/c:/Users/adamw/.copilot/agents, /c:/Users/adamw/.claude/agents, /C:/Users/adamw/AppData/Roaming/Code/User/prompts, /D:/clean-folder/.github/agents, /D:/clean-folder/.claude/agents]"
+                  }
+                },
+                {
+                  "key": "copilot_chat.event_category",
+                  "value": {
+                    "stringValue": "discovery"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "5fa22b13-382f-4fc9-8108-23bb71910fed",
+              "name": "Instructions Discovery",
+              "kind": 1,
+              "startTimeUnixNano": "1781474357391000000",
+              "endTimeUnixNano": "1781474357391000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                },
+                {
+                  "key": "copilot_chat.event_details",
+                  "value": {
+                    "stringValue": "Resolved 0 instructions in 59.6ms | folders: [/c:/Users/adamw/.copilot/instructions, /c:/Users/adamw/.claude/rules, /C:/Users/adamw/AppData/Roaming/Code/User/prompts, /D:/clean-folder/.github/instructions, /D:/clean-folder/.claude/rules]"
+                  }
+                },
+                {
+                  "key": "copilot_chat.event_category",
+                  "value": {
+                    "stringValue": "discovery"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "c1d09e7f-7f4a-465e-a221-17cde00af071",
+              "name": "Slash Commands Discovery",
+              "kind": 1,
+              "startTimeUnixNano": "1781474357391000000",
+              "endTimeUnixNano": "1781474357391000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                },
+                {
+                  "key": "copilot_chat.event_details",
+                  "value": {
+                    "stringValue": "Resolved 25 slash commands in 51.0ms | loaded: [plan, adam-it-ai-co-maintainer-copilot-plugin:generate-marketing-posts, adam-it-ai-co-maintainer-copilot-plugin:gh-pr-review, adam-it-ai-co-maintainer-copilot-plugin:local-pr-review, project-setup-info-local, get-search-view-results, troubleshoot, agent-customization, init, create-prompt, create-instructions, create-skill, create-agent, create-hook, summarize-github-issue-pr-notification, suggest-fix-issue, form-github-search-query, show-github-search-result, address-pr-comments, create-pull-request, analyze-prompt, fix-customization-evaluation-diagnostics, adam-it-ai-co-maintainer-copilot-plugin:generate-marketing-posts, adam-it-ai-co-maintainer-copilot-plugin:gh-pr-review, adam-it-ai-co-maintainer-copilot-plugin:local-pr-review] | folders: [/C:/Users/adamw/AppData/Roaming/Code/User/prompts, /D:/clean-folder/.github/prompts, /c:/Users/adamw/.agents/skills, /c:/Users/adamw/.copilot/skills, /c:/Users/adamw/.claude/skills, /D:/clean-folder/.agents/skills, /D:/clean-folder/.github/skills, /D:/clean-folder/.claude/skills]"
+                  }
+                },
+                {
+                  "key": "copilot_chat.event_category",
+                  "value": {
+                    "stringValue": "discovery"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "a9208b04-bf50-4732-8926-983e361f656d",
+              "name": "Skill Discovery",
+              "kind": 1,
+              "startTimeUnixNano": "1781474357392000000",
+              "endTimeUnixNano": "1781474357392000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                },
+                {
+                  "key": "copilot_chat.event_details",
+                  "value": {
+                    "stringValue": "Resolved 21 skills in 51.1ms | loaded: [generate-marketing-posts, gh-pr-review, local-pr-review, project-setup-info-local, get-search-view-results, troubleshoot, agent-customization, init, create-prompt, create-instructions, create-skill, create-agent, create-hook, summarize-github-issue-pr-notification, suggest-fix-issue, form-github-search-query, show-github-search-result, address-pr-comments, create-pull-request, analyze-prompt, fix-customization-evaluation-diagnostics] | folders: [/c:/Users/adamw/.agents/skills, /c:/Users/adamw/.copilot/skills, /c:/Users/adamw/.claude/skills, /D:/clean-folder/.agents/skills, /D:/clean-folder/.github/skills, /D:/clean-folder/.claude/skills]"
+                  }
+                },
+                {
+                  "key": "copilot_chat.event_category",
+                  "value": {
+                    "stringValue": "discovery"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "284f557f-49d2-42f1-b418-782bef8ebdff",
+              "name": "Hook Discovery",
+              "kind": 1,
+              "startTimeUnixNano": "1781474357392000000",
+              "endTimeUnixNano": "1781474357392000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                },
+                {
+                  "key": "copilot_chat.event_details",
+                  "value": {
+                    "stringValue": "Resolved 0 hooks in 96.9ms | folders: [/c:/Users/adamw/.copilot/hooks, /c:/Users/adamw/.claude/settings.json, /D:/clean-folder/.github/hooks, /D:/clean-folder/.claude/settings.local.json, /D:/clean-folder/.claude/settings.json]"
+                  }
+                },
+                {
+                  "key": "copilot_chat.event_category",
+                  "value": {
+                    "stringValue": "discovery"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "0000000000000012",
+              "parentSpanId": "0000000000000010",
+              "name": "manage_todo_list",
+              "kind": 1,
+              "startTimeUnixNano": "1781474357714000000",
+              "endTimeUnixNano": "1781474357716000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "manage_todo_list"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.arguments",
+                  "value": {
+                    "stringValue": "{\"operation\":\"read\",\"chatSessionResource\":{\"$mid\":1,\"external\":\"vscode-chat-session://local/YTY2NWRlNDAtMjU1OS00M2IyLWJmMzktZTJlNGJiNzc2OTZi\",\"path\":\"/YTY2NWRlNDAtMjU1OS00M2IyLWJmMzktZTJlNGJiNzc2OTZi\",\"scheme\":\"vscode-chat-session\",\"authority\":\"local\"}}"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "stringValue": "No todo list found."
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "child-ref-edb0cfd8-1bf2-4368-9d08-aba186930d50",
+              "name": "title",
+              "kind": 1,
+              "startTimeUnixNano": "1781474358634000000",
+              "endTimeUnixNano": "1781474358634000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "0000000000000013",
+              "parentSpanId": "0000000000000010",
+              "name": "chat:claude-sonnet-4.6",
+              "kind": 1,
+              "startTimeUnixNano": "1781474357752000000",
+              "endTimeUnixNano": "1781474362239000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "chat"
+                  }
+                },
+                {
+                  "key": "gen_ai.request.model",
+                  "value": {
+                    "stringValue": "claude-sonnet-4.6"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.input_tokens",
+                  "value": {
+                    "intValue": "15749"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.output_tokens",
+                  "value": {
+                    "intValue": "263"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "agent-msg-0000000000000013",
+              "parentSpanId": "0000000000000010",
+              "name": "agent_response",
+              "kind": 1,
+              "startTimeUnixNano": "1781474362239000000",
+              "endTimeUnixNano": "1781474362239000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_end-0000000000000010-0",
+              "name": "turn_end:0",
+              "kind": 1,
+              "startTimeUnixNano": "1781474362256000000",
+              "endTimeUnixNano": "1781474362256000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_start-0000000000000010-1",
+              "name": "turn_start:1",
+              "kind": 1,
+              "startTimeUnixNano": "1781474362256000000",
+              "endTimeUnixNano": "1781474362256000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "0000000000000014",
+              "parentSpanId": "0000000000000010",
+              "name": "run_in_terminal",
+              "kind": 1,
+              "startTimeUnixNano": "1781474362283000000",
+              "endTimeUnixNano": "1781474363761000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "run_in_terminal"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.arguments",
+                  "value": {
+                    "stringValue": "{\"command\":\"Get-Module -ListAvailable -Name PnP.PowerShell | Select-Object Name, Version\",\"explanation\":\"Check if PnP.PowerShell is already installed\",\"goal\":\"Check PnP.PowerShell installation\",\"mode\":\"sync\"}"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "stringValue": "\n\nCommand produced no output"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "0000000000000015",
+              "parentSpanId": "0000000000000010",
+              "name": "chat:claude-sonnet-4.6",
+              "kind": 1,
+              "startTimeUnixNano": "1781474363796000000",
+              "endTimeUnixNano": "1781474366940000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "chat"
+                  }
+                },
+                {
+                  "key": "gen_ai.request.model",
+                  "value": {
+                    "stringValue": "claude-sonnet-4.6"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.input_tokens",
+                  "value": {
+                    "intValue": "16027"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.output_tokens",
+                  "value": {
+                    "intValue": "186"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "agent-msg-0000000000000015",
+              "parentSpanId": "0000000000000010",
+              "name": "agent_response",
+              "kind": 1,
+              "startTimeUnixNano": "1781474366940000000",
+              "endTimeUnixNano": "1781474366940000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_end-0000000000000010-1",
+              "name": "turn_end:1",
+              "kind": 1,
+              "startTimeUnixNano": "1781474366953000000",
+              "endTimeUnixNano": "1781474366953000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_start-0000000000000010-2",
+              "name": "turn_start:2",
+              "kind": 1,
+              "startTimeUnixNano": "1781474366953000000",
+              "endTimeUnixNano": "1781474366953000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "0000000000000018",
+              "parentSpanId": "0000000000000010",
+              "name": "run_in_terminal",
+              "kind": 1,
+              "startTimeUnixNano": "1781474366976000000",
+              "endTimeUnixNano": "1781474386902000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "run_in_terminal"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.arguments",
+                  "value": {
+                    "stringValue": "{\"command\":\"Install-Module -Name PnP.PowerShell -Scope CurrentUser -Force -AllowClobber\",\"explanation\":\"Install the PnP.PowerShell module from the PowerShell Gallery\",\"goal\":\"Install PnP.PowerShell\",\"mode\":\"sync\",\"timeout\":180000}"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "stringValue": "\n\nCommand produced no output"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "0000000000000019",
+              "parentSpanId": "0000000000000010",
+              "name": "chat:claude-sonnet-4.6",
+              "kind": 1,
+              "startTimeUnixNano": "1781474386939000000",
+              "endTimeUnixNano": "1781474389639000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "chat"
+                  }
+                },
+                {
+                  "key": "gen_ai.request.model",
+                  "value": {
+                    "stringValue": "claude-sonnet-4.6"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.input_tokens",
+                  "value": {
+                    "intValue": "16231"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.output_tokens",
+                  "value": {
+                    "intValue": "141"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "agent-msg-0000000000000019",
+              "parentSpanId": "0000000000000010",
+              "name": "agent_response",
+              "kind": 1,
+              "startTimeUnixNano": "1781474389639000000",
+              "endTimeUnixNano": "1781474389639000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_end-0000000000000010-2",
+              "name": "turn_end:2",
+              "kind": 1,
+              "startTimeUnixNano": "1781474389648000000",
+              "endTimeUnixNano": "1781474389648000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_start-0000000000000010-3",
+              "name": "turn_start:3",
+              "kind": 1,
+              "startTimeUnixNano": "1781474389648000000",
+              "endTimeUnixNano": "1781474389648000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "000000000000001a",
+              "parentSpanId": "0000000000000010",
+              "name": "run_in_terminal",
+              "kind": 1,
+              "startTimeUnixNano": "1781474389668000000",
+              "endTimeUnixNano": "1781474389831000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "run_in_terminal"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.arguments",
+                  "value": {
+                    "stringValue": "{\"command\":\"Get-Module -ListAvailable -Name PnP.PowerShell | Select-Object Name, Version\",\"explanation\":\"Verify PnP.PowerShell was installed successfully\",\"goal\":\"Verify installation\",\"mode\":\"sync\"}"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "stringValue": "\nName           Version\n----           -------\nPnP.PowerShell 3.2.0"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "000000000000001b",
+              "parentSpanId": "0000000000000010",
+              "name": "chat:claude-sonnet-4.6",
+              "kind": 1,
+              "startTimeUnixNano": "1781474389854000000",
+              "endTimeUnixNano": "1781474393340000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "chat"
+                  }
+                },
+                {
+                  "key": "gen_ai.request.model",
+                  "value": {
+                    "stringValue": "claude-sonnet-4.6"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.input_tokens",
+                  "value": {
+                    "intValue": "16407"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.output_tokens",
+                  "value": {
+                    "intValue": "212"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "agent-msg-000000000000001b",
+              "parentSpanId": "0000000000000010",
+              "name": "agent_response",
+              "kind": 1,
+              "startTimeUnixNano": "1781474393340000000",
+              "endTimeUnixNano": "1781474393340000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_end-0000000000000010-3",
+              "name": "turn_end:3",
+              "kind": 1,
+              "startTimeUnixNano": "1781474393352000000",
+              "endTimeUnixNano": "1781474393352000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_start-0000000000000010-4",
+              "name": "turn_start:4",
+              "kind": 1,
+              "startTimeUnixNano": "1781474393352000000",
+              "endTimeUnixNano": "1781474393352000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "000000000000001e",
+              "parentSpanId": "0000000000000010",
+              "name": "run_in_terminal",
+              "kind": 1,
+              "startTimeUnixNano": "1781474393378000000",
+              "endTimeUnixNano": "1781474399261000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "run_in_terminal"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.arguments",
+                  "value": {
+                    "stringValue": "{\"command\":\"Connect-PnPOnline -Url \\\"https://tenanttocheck.sharepoint.com/sites/PnP-PowerShell-Agent-Test\\\" -Interactive\",\"explanation\":\"Connect to the SharePoint site using interactive (browser-based) authentication\",\"goal\":\"Connect to SharePoint via PnP\",\"mode\":\"sync\",\"timeout\":120000}"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "stringValue": "WARNING: \n Please specify a valid client id for an Entra ID App Registration.      \n\n\nConnect-PnPOnline: Specified method is not supported.\n\nCommand exited with code 1"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "000000000000001f",
+              "parentSpanId": "0000000000000010",
+              "name": "chat:claude-sonnet-4.6",
+              "kind": 1,
+              "startTimeUnixNano": "1781474399318000000",
+              "endTimeUnixNano": "1781474409453000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "chat"
+                  }
+                },
+                {
+                  "key": "gen_ai.request.model",
+                  "value": {
+                    "stringValue": "claude-sonnet-4.6"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.input_tokens",
+                  "value": {
+                    "intValue": "16677"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.output_tokens",
+                  "value": {
+                    "intValue": "608"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "agent-msg-000000000000001f",
+              "parentSpanId": "0000000000000010",
+              "name": "agent_response",
+              "kind": 1,
+              "startTimeUnixNano": "1781474409453000000",
+              "endTimeUnixNano": "1781474409453000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_end-0000000000000010-4",
+              "name": "turn_end:4",
+              "kind": 1,
+              "startTimeUnixNano": "1781474409462000000",
+              "endTimeUnixNano": "1781474409462000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_start-0000000000000010-5",
+              "name": "turn_start:5",
+              "kind": 1,
+              "startTimeUnixNano": "1781474409462000000",
+              "endTimeUnixNano": "1781474409462000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "0000000000000022",
+              "parentSpanId": "0000000000000010",
+              "name": "run_in_terminal",
+              "kind": 1,
+              "startTimeUnixNano": "1781474409482000000",
+              "endTimeUnixNano": "1781474409660000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "run_in_terminal"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.arguments",
+                  "value": {
+                    "stringValue": "{\"command\":\"Register-PnPManagementShellAccess\",\"explanation\":\"Register/grant admin consent to the PnP Management Shell Entra ID app for the tenant\",\"goal\":\"Grant PnP Management Shell access\",\"mode\":\"sync\",\"timeout\":120000}"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "stringValue": "Check the spelling of the name, or if a path was included, verify that the path is correct and try again.\n\nCommand exited with code 1"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "0000000000000023",
+              "parentSpanId": "0000000000000010",
+              "name": "chat:claude-sonnet-4.6",
+              "kind": 1,
+              "startTimeUnixNano": "1781474409714000000",
+              "endTimeUnixNano": "1781474413317000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "chat"
+                  }
+                },
+                {
+                  "key": "gen_ai.request.model",
+                  "value": {
+                    "stringValue": "claude-sonnet-4.6"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.input_tokens",
+                  "value": {
+                    "intValue": "17323"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.output_tokens",
+                  "value": {
+                    "intValue": "194"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "agent-msg-0000000000000023",
+              "parentSpanId": "0000000000000010",
+              "name": "agent_response",
+              "kind": 1,
+              "startTimeUnixNano": "1781474413317000000",
+              "endTimeUnixNano": "1781474413317000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_end-0000000000000010-5",
+              "name": "turn_end:5",
+              "kind": 1,
+              "startTimeUnixNano": "1781474413326000000",
+              "endTimeUnixNano": "1781474413326000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_start-0000000000000010-6",
+              "name": "turn_start:6",
+              "kind": 1,
+              "startTimeUnixNano": "1781474413326000000",
+              "endTimeUnixNano": "1781474413326000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "0000000000000024",
+              "parentSpanId": "0000000000000010",
+              "name": "run_in_terminal",
+              "kind": 1,
+              "startTimeUnixNano": "1781474413352000000",
+              "endTimeUnixNano": "1781474413619000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "run_in_terminal"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.arguments",
+                  "value": {
+                    "stringValue": "{\"command\":\"Get-Command -Module PnP.PowerShell | Where-Object { $_.Name -like \\\"*Register*\\\" -or $_.Name -like \\\"*Management*\\\" }\",\"explanation\":\"Check available PnP commands related to registration and management shell\",\"goal\":\"Explore available PnP commands\",\"mode\":\"sync\"}"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "stringValue": "\nCommandType     Name                                               Version    S\n                                                                              o\n                                                                              u\n                                                                              r\n                                                                              c\n                                                                              e\n-----------     ----                                               -------    -\nAlias           Enable-PnPPriviledgedIdentityManagement            3.2.0      P\nAlias           Get-PnPPriviledgedIdentityManagementEligibleAssig… 3.2.0      P\nAlias           Get-PnPPriviledgedIdentityManagementRole           3.2.0      P\nAlias           Register-PnPAzureADApp                             3.2.0      P\nCmdlet          Enable-PnPPrivilegedIdentityManagement             3.2.0      P\nCmdlet          Get-PnPInPlaceRecordsManagement                    3.2.0      P\nCmdlet          Get-PnPListInformationRightsManagement             3.2.0      P\nCmdlet          Get-PnPPrivilegedIdentityManagementEligibleAssign… 3.2.0      P\nCmdlet          Get-PnPPrivilegedIdentityManagementRole            3.2.0      P\nCmdlet          Register-PnPAppCatalogSite                         3.2.0      P\nCmdlet          Register-PnPEntraIDApp                             3.2.0      P\nCmdlet          Register-PnPEntraIDAppForInteractiveLogin          3.2.0      P\nCmdlet          Register-PnPHubSite                                3.2.0      P\nCmdlet          Set-PnPInPlaceRecordsManagement                    3.2.0      P\nCmdlet          Set-PnPListInformationRightsManagement             3.2.0      P\nCmdlet          Unregister-PnPHubSite                              3.2.0      P"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "0000000000000025",
+              "parentSpanId": "0000000000000010",
+              "name": "chat:claude-sonnet-4.6",
+              "kind": 1,
+              "startTimeUnixNano": "1781474413657000000",
+              "endTimeUnixNano": "1781474418908000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "chat"
+                  }
+                },
+                {
+                  "key": "gen_ai.request.model",
+                  "value": {
+                    "stringValue": "claude-sonnet-4.6"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.input_tokens",
+                  "value": {
+                    "intValue": "18012"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.output_tokens",
+                  "value": {
+                    "intValue": "309"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "agent-msg-0000000000000025",
+              "parentSpanId": "0000000000000010",
+              "name": "agent_response",
+              "kind": 1,
+              "startTimeUnixNano": "1781474418908000000",
+              "endTimeUnixNano": "1781474418908000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_end-0000000000000010-6",
+              "name": "turn_end:6",
+              "kind": 1,
+              "startTimeUnixNano": "1781474418918000000",
+              "endTimeUnixNano": "1781474418918000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_start-0000000000000010-7",
+              "name": "turn_start:7",
+              "kind": 1,
+              "startTimeUnixNano": "1781474418918000000",
+              "endTimeUnixNano": "1781474418918000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "0000000000000028",
+              "parentSpanId": "0000000000000010",
+              "name": "run_in_terminal",
+              "kind": 1,
+              "startTimeUnixNano": "1781474418941000000",
+              "endTimeUnixNano": "1781474419200000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "run_in_terminal"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.arguments",
+                  "value": {
+                    "stringValue": "{\"command\":\"$app = Register-PnPEntraIDAppForInteractiveLogin -ApplicationName \\\"PnP-PowerShell-Agent-Test\\\" -Tenant \\\"tenanttocheck.sharepoint.com\\\" -Interactive\\n$app\",\"explanation\":\"Register a new Entra ID app for interactive PnP PowerShell login (opens a browser for authentication)\",\"goal\":\"Register Entra ID app for PnP interactive login\",\"mode\":\"sync\",\"timeout\":120000}"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "stringValue": "nt.com\" -Interactive\nRegister-PnPEntraIDAppForInteractiveLogin: A parameter cannot be found that matches parameter name 'Interactive'.\n\nCommand exited with code 1"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "0000000000000029",
+              "parentSpanId": "0000000000000010",
+              "name": "chat:claude-sonnet-4.6",
+              "kind": 1,
+              "startTimeUnixNano": "1781474419255000000",
+              "endTimeUnixNano": "1781474422108000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "chat"
+                  }
+                },
+                {
+                  "key": "gen_ai.request.model",
+                  "value": {
+                    "stringValue": "claude-sonnet-4.6"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.input_tokens",
+                  "value": {
+                    "intValue": "18378"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.output_tokens",
+                  "value": {
+                    "intValue": "151"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "agent-msg-0000000000000029",
+              "parentSpanId": "0000000000000010",
+              "name": "agent_response",
+              "kind": 1,
+              "startTimeUnixNano": "1781474422108000000",
+              "endTimeUnixNano": "1781474422108000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_end-0000000000000010-7",
+              "name": "turn_end:7",
+              "kind": 1,
+              "startTimeUnixNano": "1781474422120000000",
+              "endTimeUnixNano": "1781474422120000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_start-0000000000000010-8",
+              "name": "turn_start:8",
+              "kind": 1,
+              "startTimeUnixNano": "1781474422121000000",
+              "endTimeUnixNano": "1781474422121000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "000000000000002a",
+              "parentSpanId": "0000000000000010",
+              "name": "run_in_terminal",
+              "kind": 1,
+              "startTimeUnixNano": "1781474422149000000",
+              "endTimeUnixNano": "1781474423198000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "run_in_terminal"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.arguments",
+                  "value": {
+                    "stringValue": "{\"command\":\"Get-Help Register-PnPEntraIDAppForInteractiveLogin -Full | Select-Object -First 60\",\"explanation\":\"Check the syntax for Register-PnPEntraIDAppForInteractiveLogin\",\"goal\":\"Check command syntax\",\"mode\":\"sync\"}"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "stringValue": "\nNAME\n    Register-PnPEntraIDAppForInteractiveLogin\n    \nSYNOPSIS\n    Registers an Entra ID App for use with Interactive login\n    \n    \nSYNTAX\n    Register-PnPEntraIDAppForInteractiveLogin -ApplicationName <String> \n    [-AzureEnvironment <AzureEnvironment>] [-DeviceLogin <SwitchParameter>] \n    [-EntraIDLoginEndPoint <String>] [-LogoFilePath <String>] \n    [-MicrosoftGraphEndPoint <String>] -Tenant <String> [<CommonParameters>]\n    \n    Register-PnPEntraIDAppForInteractiveLogin -ApplicationName <String> \n    [-AzureEnvironment <AzureEnvironment>] [-DeviceLogin <SwitchParameter>] \n    [-EntraIDLoginEndPoint <String>] [-LogoFilePath <String>] \n    [-MicrosoftGraphEndPoint <String>] -Tenant <String> [<CommonParameters>]\n    \n    \nDESCRIPTION\n    Registers an Entra ID App for use with the interactive login on \n    Connect-PnPOnline. By default it assumes an Interactive login, but you can \n    decide to use Device Login auth by specifying -DeviceLogin.\n    \n\nPARAMETERS\n    -ApplicationName <String>\n        The name of the Entra ID Application to create.\n        \n        Required?                    true\n        Position?                    Named\n        Default value                \n        Accept pipeline input?       false\n        Aliases                      none\n        Accept wildcard characters?  false\n        \n    -AzureEnvironment [<AzureEnvironment>]\n        The Azure environment to use for authentication, the defaults to \n        'Production' which is the main Azure environment.\n        \n        Required?                    false\n        Position?                    Named\n        Default value                \n        Accept pipeline input?       false\n        Aliases                      none\n        Accept wildcard characters?  false\n        \n    -DeviceLogin [<SwitchParameter>]\n        If specified, a device login flow, supporting Multi-Factor \n        Authentication will be used to authenticate towards the Microsoft \n        Graph.\n        \n        Required?                    false\n        Position?                    Named\n        Default value                \n        Accept pipeline input?       false\n        Aliases                      none\n        Accept wildcard characters?  false\n        \n    -EntraIDLoginEndPoint [<String>]\n        Sets the EntraID login endpoint to be used for creation of the app. \n        This only works if Azure Environment parameter is set to `Custom`\n        \n        Required?                    false\n        Position?                    Named\n        Default value                \n        Accept pipeline input?       false\n        Aliases                      none\n        Accept wildcard characters?  false\n        \n    -GraphApplicationPermissions [<Permission[]>]\n        Specify which Microsoft Graph Application permissions to request.\n        \n        Required?                    false\n        Position?                    0\n        Default value                \n        Accept pipeline input?       false\n        Aliases                      none\n        Accept wildcard characters?  false\n        \n    -GraphDelegatePermissions [<Permission[]>]\n        Specify which Microsoft Graph Delegate permissions to request.\n        \n        Required?                    false\n        Position?                    0\n        Default value                \n        Accept pipeline input?       false\n        Aliases                      none\n        Accept wildcard characters?  false\n        \n    -LogoFilePath [<String>]\n        Sets the logo for the Entra ID application. Provide a full path to a \n        local image file on your disk which you want to use as the logo.\n        \n        Required?                    false\n        Position?                    Named\n        Default value                \n        Accept pipeline input?       false\n        Aliases                      none\n        Accept wildcard characters?  false\n        \n    -MicrosoftGraphEndPoint [<String>]\n        Sets the Microsoft Graph endpoint to be used for creation of the app. \n        This only works if Azure Environment parameter is set to `Custom`\n        \n        Required?                    false\n        Position?                    Named\n        Default value                \n        Accept pipeline input?       false\n        Aliases                      none\n        Accept wildcard characters?  false\n        \n    -SharePointApplicationPermissions [<Permission[]>]\n        Specify which Microsoft SharePoint Application permissions to request.\n        \n        Required?                    false\n        Position?                    0\n        Default value                \n        Accept pipeline input?       false\n        Aliases                      none\n        Accept wildcard characters?  false\n        \n    -SharePointDelegatePermissions [<Permission[]>]\n        Specify which Microsoft SharePoint Delegate permissions to request.\n        \n        Required?                    false\n        Position?             [truncated]"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "000000000000002b",
+              "parentSpanId": "0000000000000010",
+              "name": "chat:claude-sonnet-4.6",
+              "kind": 1,
+              "startTimeUnixNano": "1781474423229000000",
+              "endTimeUnixNano": "1781474429527000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "chat"
+                  }
+                },
+                {
+                  "key": "gen_ai.request.model",
+                  "value": {
+                    "stringValue": "claude-sonnet-4.6"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.input_tokens",
+                  "value": {
+                    "intValue": "20303"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.output_tokens",
+                  "value": {
+                    "intValue": "300"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "agent-msg-000000000000002b",
+              "parentSpanId": "0000000000000010",
+              "name": "agent_response",
+              "kind": 1,
+              "startTimeUnixNano": "1781474429527000000",
+              "endTimeUnixNano": "1781474429527000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_end-0000000000000010-8",
+              "name": "turn_end:8",
+              "kind": 1,
+              "startTimeUnixNano": "1781474429543000000",
+              "endTimeUnixNano": "1781474429543000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_start-0000000000000010-9",
+              "name": "turn_start:9",
+              "kind": 1,
+              "startTimeUnixNano": "1781474429543000000",
+              "endTimeUnixNano": "1781474429543000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "000000000000002e",
+              "parentSpanId": "0000000000000010",
+              "name": "run_in_terminal",
+              "kind": 1,
+              "startTimeUnixNano": "1781474429578000000",
+              "endTimeUnixNano": "1781474478864000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "run_in_terminal"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.arguments",
+                  "value": {
+                    "stringValue": "{\"command\":\"$app = Register-PnPEntraIDAppForInteractiveLogin -ApplicationName \\\"PnP-PowerShell-Agent-Test\\\" -Tenant \\\"tenanttocheck.onmicrosoft.com\\\"\\nWrite-Host \\\"App Client ID: $($app.'AzureAppId/ClientId')\\\"\",\"explanation\":\"Register an Entra ID app for interactive PnP login - a browser will open for you to authenticate with your admin credentials\",\"goal\":\"Register Entra ID app for PnP\",\"mode\":\"sync\",\"timeout\":120000}"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "stringValue": "oft.com\"\nWARNING: \n No permissions specified, using default permissions                     \n\n\nChecking if application 'PnP-PowerShell-Agent-Test' does not exist yet...Success. Application 'PnP-PowerShell-Agent-Test' can be registered.\nApp PnP-PowerShell-Agent-Test with id 423e0366-9af4-4ba6-97bf-d396f36a83f5 created."
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "000000000000002f",
+              "parentSpanId": "0000000000000010",
+              "name": "chat:claude-sonnet-4.6",
+              "kind": 1,
+              "startTimeUnixNano": "1781474479352000000",
+              "endTimeUnixNano": "1781474483222000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "chat"
+                  }
+                },
+                {
+                  "key": "gen_ai.request.model",
+                  "value": {
+                    "stringValue": "claude-sonnet-4.6"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.input_tokens",
+                  "value": {
+                    "intValue": "20722"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.output_tokens",
+                  "value": {
+                    "intValue": "260"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "agent-msg-000000000000002f",
+              "parentSpanId": "0000000000000010",
+              "name": "agent_response",
+              "kind": 1,
+              "startTimeUnixNano": "1781474483222000000",
+              "endTimeUnixNano": "1781474483222000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_end-0000000000000010-9",
+              "name": "turn_end:9",
+              "kind": 1,
+              "startTimeUnixNano": "1781474483263000000",
+              "endTimeUnixNano": "1781474483263000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_start-0000000000000010-10",
+              "name": "turn_start:10",
+              "kind": 1,
+              "startTimeUnixNano": "1781474483264000000",
+              "endTimeUnixNano": "1781474483264000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "0000000000000030",
+              "parentSpanId": "0000000000000010",
+              "name": "run_in_terminal",
+              "kind": 1,
+              "startTimeUnixNano": "1781474483314000000",
+              "endTimeUnixNano": "1781474490066000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "run_in_terminal"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.arguments",
+                  "value": {
+                    "stringValue": "{\"command\":\"Connect-PnPOnline -Url \\\"https://tenanttocheck.sharepoint.com/sites/PnP-PowerShell-Agent-Test\\\" -Interactive -ClientId \\\"423e0366-9af4-4ba6-97bf-d396f36a83f5\\\"\",\"explanation\":\"Connect to the SharePoint site using the newly registered Entra ID app - a browser will open for sign-in\",\"goal\":\"Connect to SharePoint site\",\"mode\":\"sync\",\"timeout\":120000}"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "stringValue": "\n\nCommand produced no output"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "0000000000000031",
+              "parentSpanId": "0000000000000010",
+              "name": "chat:claude-sonnet-4.6",
+              "kind": 1,
+              "startTimeUnixNano": "1781474490124000000",
+              "endTimeUnixNano": "1781474493231000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "chat"
+                  }
+                },
+                {
+                  "key": "gen_ai.request.model",
+                  "value": {
+                    "stringValue": "claude-sonnet-4.6"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.input_tokens",
+                  "value": {
+                    "intValue": "20999"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.output_tokens",
+                  "value": {
+                    "intValue": "134"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "agent-msg-0000000000000031",
+              "parentSpanId": "0000000000000010",
+              "name": "agent_response",
+              "kind": 1,
+              "startTimeUnixNano": "1781474493231000000",
+              "endTimeUnixNano": "1781474493231000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_end-0000000000000010-10",
+              "name": "turn_end:10",
+              "kind": 1,
+              "startTimeUnixNano": "1781474493244000000",
+              "endTimeUnixNano": "1781474493244000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_start-0000000000000010-11",
+              "name": "turn_start:11",
+              "kind": 1,
+              "startTimeUnixNano": "1781474493244000000",
+              "endTimeUnixNano": "1781474493244000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "0000000000000032",
+              "parentSpanId": "0000000000000010",
+              "name": "run_in_terminal",
+              "kind": 1,
+              "startTimeUnixNano": "1781474493293000000",
+              "endTimeUnixNano": "1781474494275000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "run_in_terminal"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.arguments",
+                  "value": {
+                    "stringValue": "{\"command\":\"Get-PnPSite | Select-Object Url, Title\",\"explanation\":\"Verify the connection is active by fetching site info\",\"goal\":\"Verify SharePoint connection\",\"mode\":\"sync\"}"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "stringValue": "\nUrl                                                                  Title\n---                                                                  -----\nhttps://tenanttocheck.sharepoint.com/sites/PnP-PowerShell-Agent-Test "
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "0000000000000033",
+              "parentSpanId": "0000000000000010",
+              "name": "chat:claude-sonnet-4.6",
+              "kind": 1,
+              "startTimeUnixNano": "1781474494342000000",
+              "endTimeUnixNano": "1781474499251000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "chat"
+                  }
+                },
+                {
+                  "key": "gen_ai.request.model",
+                  "value": {
+                    "stringValue": "claude-sonnet-4.6"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.input_tokens",
+                  "value": {
+                    "intValue": "21189"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.output_tokens",
+                  "value": {
+                    "intValue": "272"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "agent-msg-0000000000000033",
+              "parentSpanId": "0000000000000010",
+              "name": "agent_response",
+              "kind": 1,
+              "startTimeUnixNano": "1781474499251000000",
+              "endTimeUnixNano": "1781474499251000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_end-0000000000000010-11",
+              "name": "turn_end:11",
+              "kind": 1,
+              "startTimeUnixNano": "1781474499258000000",
+              "endTimeUnixNano": "1781474499258000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "copilotChat": {
+    "exportedAt": "2026-06-14T22:02:51.721Z",
+    "exporterVersion": "",
+    "sessionId": "a665de40-2559-43b2-bf39-e2e4bb77696b",
+    "sessionTitle": "Set up PnP PowerShell environment"
+  }
+}

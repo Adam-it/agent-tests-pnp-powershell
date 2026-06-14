@@ -27,30 +27,74 @@ Prepare my local environment for using PnP PowerShell. Install whatever is neede
 
 ### Baseline - Clean Copilot without any customizations - Claude Sonnet 4.6
 
-| Run | Must have criteria | Nice to have criteria | Input tokens | Output tokens | Cached tokens | Credits | Tool calls | Model turns | Errors |
-| --- | ------------------ | --------------------- | ------------ | ------------- | ------------- | ------- | ---------- | ----------- | ------ |
-| #1  | ❌ 1/3             | ❌ 1/4               | 157,032      | 2,759         | 146,231       | 12.58   | 9          | 9           | 0      |
-| #2  |                    |                       |              |               |               |         |            |             |        |
-| #3  |                    |                       |              |               |               |         |            |             |        |
+| Run | Must have criteria | Nice to have criteria | Input tokens | Output tokens | Cached tokens | Credits | Tool calls | Model turns | Errors | |
+| --- | ------------------ | --------------------- | ------------ | ------------- | ------------- | ------- | ---------- | ----------- | ------ | --- |
+| #1  | ❌ 1/3             | ❌ 1/4               | 157,032      | 2,759         | 146,231       | 12.58   | 9          | 9           | 0      | |
+| #2  | ✅ 3/3             | ❌ 1/4               | 405,907      | 4,872         | 386,435       | 26.20   | 19         | 21          | 0      | 👈 |
+| #3  | ✅ 3/3             | ❌ 1/4               | 629,746      | 7,067         | 595,966       | 41.14   | 24         | 28          | 0      | |
 
-//🏗️ In Progress
+Copilot usually assumed it may use the Client ID for making the connections using the deprecated PnP Management Shell app. It also usually used device login for making the connection and never asked the user about what should be the permissions scoped added to the app registration or if the app registration will be used for interactive login or for an application. Copilot never validated if PowerShell terminal is in the correct and supported version. Lastly, Copilot many times made a mistake to kill the terminal which means loosing the connection to the site before confirming if the connection was established.
 
 ### Context7 - Copilot with Context7 MCP - Claude Sonnet 4.6
 
-// TODO
+| Run | Must have criteria | Nice to have criteria | Input tokens | Output tokens | Cached tokens | Credits | Tool calls | Model turns | Errors | |
+| --- | ------------------ | --------------------- | ------------ | ------------- | ------------- | ------- | ---------- | ----------- | ------ | --- |
+| #1  | ✅ 3/3             | ❌ 2/4               | 430,208      | 6,987         | 408,152       | 30.99   | 21         | 21          | 0      | |
+| #2  | ✅ 3/3             | ❌ 1/4               | 218,017      | 3,030         | 221,047       | 15.10   | 12         | 12          | 0      | 👈 |
+| #3  | ✅ 3/3             | ❌ 1/4               | 764,237      | 8,210         | 731,047       | 46.69   | 29         | 32          | 0      | |
 
-### PnP PowerShell Copilot Plugin - Copilot with the PnP PowerShell Copilot Plugin - Claude Sonnet 4.6
-
-// TODO
+Copilot one time validate the PowerShell version installed before installing the PnP PowerShell module. Copilot did not use any of the Context7 MCP tools. Copilot again used the old PnP Management Shell app registration for making the connection and it also does not ask the user for the authentication type nor the permissions scopes that should be used.
 
 ### PnP PowerShell MCP - Copilot with the PnP PowerShell MCP - Claude Sonnet 4.6
 
-// TODO - confirm if it is usable with the PnP PS team
+| Run | Must have criteria | Nice to have criteria | Input tokens | Output tokens | Cached tokens | Credits | Tool calls | Model turns | Errors |
+| --- | ------------------ | --------------------- | ------------ | ------------- | ------------- | ------- | ---------- | ----------- | ------ |
+| #1  |                    |                       |              |               |               |         |            |             |        |
+| #2  |                    |                       |              |               |               |         |            |             |        |
+| #3  |                    |                       |              |               |               |         |            |             |        |
+
+❌ Unable to test.
+Starting the PnP PowerShell MCP server gives the following error: `[server stderr] Version 0.1.0-beta of package pnp.powershell.mcpserver.win-x64 is not found in NuGet feeds https://api.nuget.org/v3/index.json.`
+
+### PnP PowerShell Copilot Plugin - Copilot with the PnP PowerShell Copilot Plugin - Claude Sonnet 4.6
+
+| Run | Must have criteria | Nice to have criteria | Input tokens | Output tokens | Cached tokens | Credits | Tool calls | Model turns | Errors | |
+| --- | ------------------ | --------------------- | ------------ | ------------- | ------------- | ------- | ---------- | ----------- | ------ | --- |
+| #1  | ✅ 3/3             | ✅ 4/4               | 229,454      | 3,056         | 203,065       | 20.57   | 9          | 11          | 0      | |
+| #2  | ✅ 3/3             | ✅ 4/4               | 206,257      | 2,752         | 180,377       | 19.24   | 8          | 10          | 0      | 👈 |
+| #3  | ✅ 3/3             | ✅ 4/4               | 348,448      | 4,035         | 328,026       | 23.55   | 11         | 16          | 0      | |
+
+Copilot installed the latest version of PnP PowerShell and created a new app registration with the correct permissions scopes. Copilot also proactively asked about the authentication type to use for the connection and scopes that should be added. Copilot validated the connection and always used interactive login, did not fallback to certificate or device code login.
 
 ## Comparison
 
-// TODO
+Below is a comparison between best runs of different methods.
+
+| Method         | Must have criteria | Nice to have criteria | Input tokens | Output tokens | Cached tokens | Credits | Tool calls | Model turns | Errors | |
+| -------------- | ------------------ | --------------------- | ------------ | ------------- | ------------- | ------- | ---------- | ----------- | ------ | --- |
+| baseline       | ✅ 3/3             | ❌ 1/4               | 405,907      | 4,872         | 386,435       | 26.20   | 19         | 21          | 0      | |
+| context7       | ✅ 3/3             | ❌ 1/4               | 218,017      | 3,030         | 221,047       | 15.10   | 12         | 12          | 0      | |
+| PnP PS MCP     |                    |                       |              |               |               |         |            |             |        | |
+| PnP PS Plugin  | ✅ 3/3             | ✅ 4/4               | 206,257      | 2,752         | 180,377       | 19.24   | 8          | 10          | 0      | 👈 |
+
+
+| Criteria        | baseline       | context7       | PnP PS MCP     | PnP PS Plugin  |
+| --------------- | -------------- | -------------- | -------------- | -------------- |
+| Must have       | ✅ 3/3         | ✅ 3/3        |                | ✅ 3/3         |
+| Nice to have    | ❌ 1/4         | ❌ 1/4        |                | ✅ 4/4 🔼      |
+| Input tokens    | 405,907        | 218,017        |                | 206,257 🔼     |
+| Output tokens   | 4,872          | 3,030          |                | 2,752 🔼       |
+| Cached tokens   | 386,435        | 221,047        |                | 180,377 🔼     |
+| Credits         | 26.20          | 15.10 🔼       |                | 19.24          |
+| Tool calls      | 19             | 12             |                | 8 🔼           |
+| Model turns     | 21             | 12             |                | 10 🔼          |
+| Errors          | 0              | 0              |                | 0              |
 
 ## Conclusion
 
 // TODO
+
+
+---
+
+[Back](../README.md)
