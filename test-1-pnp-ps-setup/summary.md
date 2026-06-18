@@ -179,7 +179,8 @@ Will rerun the tests and perform final conclusion after I perform fixup in PnP P
 - Anthropic are the only models that charge different amount for cache writes. This is tricky as VS Code agent debug view does not show cache writes, only cache inputs.
 - Skill should provide information how the output of the process/tool should look like to make it consistent for every run and it should be short and clean
 - Currently for both Anthropic and OpenAI models the PnP PS Copilot Plugin is an obvious lift but it still could be tweaked to make it behave better for OpenAI models
-- When running a test using MS MAI-Code-1-Flash it did not discover and use the skill at all😱
+- When running a test using MS MAI-Code-1-Flash it did not discover and use the skill at all 😱
+- When running the test using Claude Haiku 4.5 it worked perfectly running all the instructions and the checks and burned only 9.47 Azure Credits
 
 ---
 
