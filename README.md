@@ -12,11 +12,11 @@ This test evaluates how well Copilot performs in setting up you local environmen
 
 ### Test 2 - Scaffolding a SharePoint Communications site with Content Type and List and a few items
 
-// 🏗️ Work in progress
+// 🏗️ Work in progress - 🚫 Blocked, after performing the setup tests I noticed a few behaviors that should be fixed in the PnP PS Copilot plugin 
 
 ### Test 3 - Create a PowerShell script that uses PnP PowerShell to migrate files between libraries on different SharePoint sites
 
-// 🏗️ Work in progress
+// 🏗️ Work in progress - 🚫 Blocked, after performing the setup tests I noticed a few behaviors that should be fixed in the PnP PS Copilot plugin 
 
 ## Harness
 
@@ -35,3 +35,6 @@ The tests used the following harness to run the tests and collect the results:
 - From Cached tokens point of view it's best that the biggest prompt with most context be one of the first ones to be run, and all other prompts in the conversations should be follow up or Copilot question answers that best do not influence the tooling. 
 - Changing model in the middle of the chat conversation resets the token cache
 - Anthropic are the only models that charge different amount for cache writes. This is tricky as VS Code agent debug view does not show cache writes, only cache inputs.
+- Skills should be reviewed with different LLM models. What works for Anthropic models, making the model follow the instructions, does not have to be the same for OpenAI models. In my case GPT model did not ask the user for scopes and login mode but assumed it should be minimal and interactive mode. It also fetched additional information from docs web page.
+- Copilot may assume user intent based on folder name in which VS Code is opened
+- Copilot may assume user intent based on previous Copilot sessions. Extreme case but it may use that

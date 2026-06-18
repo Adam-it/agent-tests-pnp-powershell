@@ -1,0 +1,2255 @@
+{
+  "resourceSpans": [
+    {
+      "resource": {
+        "attributes": [
+          {
+            "key": "service.name",
+            "value": {
+              "stringValue": "copilot-chat"
+            }
+          },
+          {
+            "key": "session.id",
+            "value": {
+              "stringValue": "88efca88-5bc6-44ed-835c-537f5b6b1464"
+            }
+          }
+        ]
+      },
+      "scopeSpans": [
+        {
+          "scope": {
+            "name": "copilot-chat"
+          },
+          "spans": [
+            {
+              "traceId": "exported-trace",
+              "spanId": "session-start-88efca88-5bc6-44ed-835c-537f5b6b1464",
+              "name": "session_start",
+              "kind": 1,
+              "startTimeUnixNano": "1781815416274000000",
+              "endTimeUnixNano": "1781815416274000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "0000000000000001",
+              "name": "user_message",
+              "kind": 1,
+              "startTimeUnixNano": "1781815416276000000",
+              "endTimeUnixNano": "1781815416276000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_start-0000000000000001-0",
+              "name": "turn_start:0",
+              "kind": 1,
+              "startTimeUnixNano": "1781815416277000000",
+              "endTimeUnixNano": "1781815416277000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "7a31f3f6-5189-4ddc-8e2f-b22a3d0cd0a7",
+              "name": "Agent Discovery",
+              "kind": 1,
+              "startTimeUnixNano": "1781815416378000000",
+              "endTimeUnixNano": "1781815416378000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                },
+                {
+                  "key": "copilot_chat.event_details",
+                  "value": {
+                    "stringValue": "Resolved 4 agents in 3335.0ms | loaded: [Plan, Ask, Explore, co-maintainer] | folders: [/c:/Users/adamw/.copilot/agents, /c:/Users/adamw/.claude/agents, /C:/Users/adamw/AppData/Roaming/Code/User/prompts, /D:/clean-folder/.github/agents, /D:/clean-folder/.claude/agents]"
+                  }
+                },
+                {
+                  "key": "copilot_chat.event_category",
+                  "value": {
+                    "stringValue": "discovery"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "6136c3c5-c87f-4741-b6d4-cac51fdc9712",
+              "name": "Instructions Discovery",
+              "kind": 1,
+              "startTimeUnixNano": "1781815416381000000",
+              "endTimeUnixNano": "1781815416381000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                },
+                {
+                  "key": "copilot_chat.event_details",
+                  "value": {
+                    "stringValue": "Resolved 0 instructions in 890.3ms | folders: [/c:/Users/adamw/.copilot/instructions, /c:/Users/adamw/.claude/rules, /C:/Users/adamw/AppData/Roaming/Code/User/prompts, /D:/clean-folder/.github/instructions, /D:/clean-folder/.claude/rules]"
+                  }
+                },
+                {
+                  "key": "copilot_chat.event_category",
+                  "value": {
+                    "stringValue": "discovery"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "027ac780-48c1-481a-bde3-bf51475a88c4",
+              "name": "Slash Commands Discovery",
+              "kind": 1,
+              "startTimeUnixNano": "1781815416382000000",
+              "endTimeUnixNano": "1781815416382000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                },
+                {
+                  "key": "copilot_chat.event_details",
+                  "value": {
+                    "stringValue": "Resolved 25 slash commands in 79.6ms | loaded: [plan, adam-it-ai-co-maintainer-copilot-plugin:generate-marketing-posts, adam-it-ai-co-maintainer-copilot-plugin:gh-pr-review, adam-it-ai-co-maintainer-copilot-plugin:local-pr-review, project-setup-info-local, get-search-view-results, troubleshoot, agent-customization, init, create-prompt, create-instructions, create-skill, create-agent, create-hook, summarize-github-issue-pr-notification, suggest-fix-issue, form-github-search-query, show-github-search-result, address-pr-comments, create-pull-request, analyze-prompt, fix-customization-evaluation-diagnostics, adam-it-ai-co-maintainer-copilot-plugin:generate-marketing-posts, adam-it-ai-co-maintainer-copilot-plugin:gh-pr-review, adam-it-ai-co-maintainer-copilot-plugin:local-pr-review] | folders: [/C:/Users/adamw/AppData/Roaming/Code/User/prompts, /D:/clean-folder/.github/prompts, /c:/Users/adamw/.agents/skills, /c:/Users/adamw/.copilot/skills, /c:/Users/adamw/.claude/skills, /D:/clean-folder/.agents/skills, /D:/clean-folder/.github/skills, /D:/clean-folder/.claude/skills]"
+                  }
+                },
+                {
+                  "key": "copilot_chat.event_category",
+                  "value": {
+                    "stringValue": "discovery"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "1ed59f80-d10f-4c4d-8e1c-56d75400b8b0",
+              "name": "Skill Discovery",
+              "kind": 1,
+              "startTimeUnixNano": "1781815416383000000",
+              "endTimeUnixNano": "1781815416383000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                },
+                {
+                  "key": "copilot_chat.event_details",
+                  "value": {
+                    "stringValue": "Resolved 21 skills in 133.7ms | loaded: [generate-marketing-posts, gh-pr-review, local-pr-review, project-setup-info-local, get-search-view-results, troubleshoot, agent-customization, init, create-prompt, create-instructions, create-skill, create-agent, create-hook, summarize-github-issue-pr-notification, suggest-fix-issue, form-github-search-query, show-github-search-result, address-pr-comments, create-pull-request, analyze-prompt, fix-customization-evaluation-diagnostics] | folders: [/c:/Users/adamw/.agents/skills, /c:/Users/adamw/.copilot/skills, /c:/Users/adamw/.claude/skills, /D:/clean-folder/.agents/skills, /D:/clean-folder/.github/skills, /D:/clean-folder/.claude/skills]"
+                  }
+                },
+                {
+                  "key": "copilot_chat.event_category",
+                  "value": {
+                    "stringValue": "discovery"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "d70b4257-f2cc-40e8-9e86-d98d68764dd8",
+              "name": "Hook Discovery",
+              "kind": 1,
+              "startTimeUnixNano": "1781815416384000000",
+              "endTimeUnixNano": "1781815416384000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                },
+                {
+                  "key": "copilot_chat.event_details",
+                  "value": {
+                    "stringValue": "Resolved 0 hooks in 155.6ms | folders: [/c:/Users/adamw/.copilot/hooks, /c:/Users/adamw/.claude/settings.json, /D:/clean-folder/.github/hooks, /D:/clean-folder/.claude/settings.local.json, /D:/clean-folder/.claude/settings.json]"
+                  }
+                },
+                {
+                  "key": "copilot_chat.event_category",
+                  "value": {
+                    "stringValue": "discovery"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "0000000000000009",
+              "parentSpanId": "0000000000000001",
+              "name": "manage_todo_list",
+              "kind": 1,
+              "startTimeUnixNano": "1781815416742000000",
+              "endTimeUnixNano": "1781815416746000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "manage_todo_list"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.arguments",
+                  "value": {
+                    "stringValue": "{\"operation\":\"read\",\"chatSessionResource\":{\"$mid\":1,\"external\":\"vscode-chat-session://local/ODhlZmNhODgtNWJjNi00NGVkLTgzNWMtNTM3ZjViNmIxNDY0\",\"path\":\"/ODhlZmNhODgtNWJjNi00NGVkLTgzNWMtNTM3ZjViNmIxNDY0\",\"scheme\":\"vscode-chat-session\",\"authority\":\"local\"}}"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "stringValue": "No todo list found."
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "child-ref-df4424f5-2d4a-4c68-b66d-c5d8ff78ca1b",
+              "name": "title",
+              "kind": 1,
+              "startTimeUnixNano": "1781815417512000000",
+              "endTimeUnixNano": "1781815417512000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "000000000000000a",
+              "parentSpanId": "0000000000000001",
+              "name": "chat:gpt-5.5",
+              "kind": 1,
+              "startTimeUnixNano": "1781815416830000000",
+              "endTimeUnixNano": "1781815427777000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "chat"
+                  }
+                },
+                {
+                  "key": "gen_ai.request.model",
+                  "value": {
+                    "stringValue": "gpt-5.5"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.input_tokens",
+                  "value": {
+                    "intValue": "15017"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.output_tokens",
+                  "value": {
+                    "intValue": "505"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "agent-msg-000000000000000a",
+              "parentSpanId": "0000000000000001",
+              "name": "agent_response",
+              "kind": 1,
+              "startTimeUnixNano": "1781815427777000000",
+              "endTimeUnixNano": "1781815427777000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_end-0000000000000001-0",
+              "name": "turn_end:0",
+              "kind": 1,
+              "startTimeUnixNano": "1781815427825000000",
+              "endTimeUnixNano": "1781815427825000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_start-0000000000000001-1",
+              "name": "turn_start:1",
+              "kind": 1,
+              "startTimeUnixNano": "1781815427825000000",
+              "endTimeUnixNano": "1781815427825000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "000000000000000b",
+              "parentSpanId": "0000000000000001",
+              "name": "run_in_terminal",
+              "kind": 1,
+              "startTimeUnixNano": "1781815427983000000",
+              "endTimeUnixNano": "1781815431188000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "run_in_terminal"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.arguments",
+                  "value": {
+                    "stringValue": "{\"command\":\"$PSVersionTable.PSVersion | Format-List; Get-Command pwsh -ErrorAction SilentlyContinue | Select-Object -ExpandProperty Source; Get-Module -ListAvailable PnP.PowerShell | Sort-Object Version -Descending | Select-Object -First 1 Name,Version,Path\",\"explanation\":\"Check the installed PowerShell versions and whether PnP.PowerShell is already available.\",\"goal\":\"Inspect PowerShell environment\",\"mode\":\"sync\",\"timeout\":120000}"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "stringValue": "Select-Object -First 1 Name,Version,Path\n\nMajor           : 7\nMinor           : 5\nPatch           : 5\nPreReleaseLabel : \nBuildLabel      : \n\nC:\\Program Files\\PowerShell\\7\\pwsh.exe"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "000000000000000c",
+              "parentSpanId": "0000000000000001",
+              "name": "chat:gpt-5.5",
+              "kind": 1,
+              "startTimeUnixNano": "1781815431391000000",
+              "endTimeUnixNano": "1781815435896000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "chat"
+                  }
+                },
+                {
+                  "key": "gen_ai.request.model",
+                  "value": {
+                    "stringValue": "gpt-5.5"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.input_tokens",
+                  "value": {
+                    "intValue": "15588"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.output_tokens",
+                  "value": {
+                    "intValue": "220"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "agent-msg-000000000000000c",
+              "parentSpanId": "0000000000000001",
+              "name": "agent_response",
+              "kind": 1,
+              "startTimeUnixNano": "1781815435896000000",
+              "endTimeUnixNano": "1781815435896000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_end-0000000000000001-1",
+              "name": "turn_end:1",
+              "kind": 1,
+              "startTimeUnixNano": "1781815435920000000",
+              "endTimeUnixNano": "1781815435920000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_start-0000000000000001-2",
+              "name": "turn_start:2",
+              "kind": 1,
+              "startTimeUnixNano": "1781815435921000000",
+              "endTimeUnixNano": "1781815435921000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "000000000000000f",
+              "parentSpanId": "0000000000000001",
+              "name": "run_in_terminal",
+              "kind": 1,
+              "startTimeUnixNano": "1781815435976000000",
+              "endTimeUnixNano": "1781815469306000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "run_in_terminal"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.arguments",
+                  "value": {
+                    "stringValue": "{\"command\":\"$ErrorActionPreference = 'Stop'; Set-PSRepository -Name PSGallery -InstallationPolicy Trusted; Install-Module PnP.PowerShell -Scope CurrentUser -Force -AllowClobber; Import-Module PnP.PowerShell; Get-Module PnP.PowerShell | Select-Object Name,Version,Path\",\"explanation\":\"Install PnP.PowerShell from PowerShell Gallery for the current user and verify it imports.\",\"goal\":\"Install PnP.PowerShell\",\"mode\":\"sync\",\"timeout\":600000}"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "stringValue": "                                                                                \nName           Version Path\n----           ------- ----\nPnP.PowerShell 3.2.0   C:\\Users\\adamw\\Documents\\PowerShell\\Modules\\PnP.PowerSh…"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "0000000000000010",
+              "parentSpanId": "0000000000000001",
+              "name": "chat:gpt-5.5",
+              "kind": 1,
+              "startTimeUnixNano": "1781815469833000000",
+              "endTimeUnixNano": "1781815474564000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "chat"
+                  }
+                },
+                {
+                  "key": "gen_ai.request.model",
+                  "value": {
+                    "stringValue": "gpt-5.5"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.input_tokens",
+                  "value": {
+                    "intValue": "15862"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.output_tokens",
+                  "value": {
+                    "intValue": "221"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "agent-msg-0000000000000010",
+              "parentSpanId": "0000000000000001",
+              "name": "agent_response",
+              "kind": 1,
+              "startTimeUnixNano": "1781815474564000000",
+              "endTimeUnixNano": "1781815474564000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_end-0000000000000001-2",
+              "name": "turn_end:2",
+              "kind": 1,
+              "startTimeUnixNano": "1781815474587000000",
+              "endTimeUnixNano": "1781815474587000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_start-0000000000000001-3",
+              "name": "turn_start:3",
+              "kind": 1,
+              "startTimeUnixNano": "1781815474587000000",
+              "endTimeUnixNano": "1781815474587000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "0000000000000013",
+              "parentSpanId": "0000000000000001",
+              "name": "run_in_terminal",
+              "kind": 1,
+              "startTimeUnixNano": "1781815474669000000",
+              "endTimeUnixNano": "1781815534937000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "run_in_terminal"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.arguments",
+                  "value": {
+                    "stringValue": "{\"command\":\"$ErrorActionPreference = 'Stop'; Import-Module PnP.PowerShell; Connect-PnPOnline -Url 'https://tenanttocheck.sharepoint.com/sites/PnP-PowerShell-Agent-Test' -Interactive -ReturnConnection | Format-List Url,ConnectionType,ClientId,TenantAdminUrl\",\"explanation\":\"Start an interactive PnP PowerShell connection to the requested SharePoint site and print connection details if successful.\",\"goal\":\"Connect to SharePoint site\",\"mode\":\"sync\",\"timeout\":300000}"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "stringValue": "Note: This terminal execution was moved to the background using the ID 8bd03a21-6d9a-40be-8d9e-9ec5e23517ca\nNote: The command produced no new output for an extended period and was moved to background terminal ID 8bd03a21-6d9a-40be-8d9e-9ec5e23517ca; the process is still running and has not been killed. You will be automatically notified on your next turn when it completes.\nThis note is not a signal to end the turn — pick one of the actions below and continue.\n  1. If the output clearly ends with a non-secret input prompt (Continue? (y/n), Enter selection, etc. — a normal shell prompt like `$` or `#` does NOT count), determine the answer and immediately call send_to_terminal with id=\"8bd03a21-6d9a-40be-8d9e-9ec5e23517ca\" (which returns the next few lines of output). Repeat one prompt at a time. Never guess passwords, passphrases, tokens, or other secrets — if the prompt requires a secret you do not have, inform the user and stop.\n  2. If the command may still be producing output or the shell prompt has not returned, call get_terminal_output with id=\"8bd03a21-6d9a-40be-8d9e-9ec5e23517ca\" to continue polling.\n  3. Producing no output for an extended period does not mean the command failed — call get_terminal_output with id=\"8bd03a21-6d9a-40be-8d9e-9ec5e23517ca\" to continue polling. Only call kill_terminal if the command is genuinely hung and you need to retry with a different approach.\n\n adamw@R2D2  D:  clean-folder  $ErrorActionPreference = 'Stop'; Import-Module PnP.PowerShell; Connect-PnPOnline -Url 'https://tenanttocheck.sharepoint.com/sites/PnP-PowerShell-Agent-Test' -Interactive -ReturnConnection | Format-List Url,ConnectionType,ClientId,TenantAdminUrl\n\n\n\n\n"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "0000000000000014",
+              "parentSpanId": "0000000000000001",
+              "name": "chat:gpt-5.5",
+              "kind": 1,
+              "startTimeUnixNano": "1781815535274000000",
+              "endTimeUnixNano": "1781815539329000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "chat"
+                  }
+                },
+                {
+                  "key": "gen_ai.request.model",
+                  "value": {
+                    "stringValue": "gpt-5.5"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.input_tokens",
+                  "value": {
+                    "intValue": "16579"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.output_tokens",
+                  "value": {
+                    "intValue": "215"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "agent-msg-0000000000000014",
+              "parentSpanId": "0000000000000001",
+              "name": "agent_response",
+              "kind": 1,
+              "startTimeUnixNano": "1781815539329000000",
+              "endTimeUnixNano": "1781815539329000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_end-0000000000000001-3",
+              "name": "turn_end:3",
+              "kind": 1,
+              "startTimeUnixNano": "1781815539374000000",
+              "endTimeUnixNano": "1781815539374000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_start-0000000000000001-4",
+              "name": "turn_start:4",
+              "kind": 1,
+              "startTimeUnixNano": "1781815539374000000",
+              "endTimeUnixNano": "1781815539374000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "0000000000000015",
+              "parentSpanId": "0000000000000001",
+              "name": "get_terminal_output",
+              "kind": 1,
+              "startTimeUnixNano": "1781815539451000000",
+              "endTimeUnixNano": "1781815539460000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "get_terminal_output"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.arguments",
+                  "value": {
+                    "stringValue": "{\"id\":\"8bd03a21-6d9a-40be-8d9e-9ec5e23517ca\"}"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "stringValue": "Output of terminal 8bd03a21-6d9a-40be-8d9e-9ec5e23517ca:\n adamw@R2D2  D:  clean-folder  $PSVersionTable.PSVersion | Format-List; Get-Command pwsh -ErrorAction SilentlyContinue | Select-Object -ExpandProperty Source; Get-Module -ListAvailable PnP.PowerShell | Sort-Object Version -Descending | Select-Object -First 1 Name,Version,Path\n\nMajor           : 7\nMinor           : 5\nPatch           : 5\nPreReleaseLabel : \nBuildLabel      : \n\nC:\\Program Files\\PowerShell\\7\\pwsh.exe\n adamw@R2D2  D:  clean-folder  $ErrorActionPreference = 'Stop'; Set-PSRepository -Name PSGallery -InstallationPolicy Trusted; Install-Module PnP.PowerShell -Scope CurrentUser -Force -AllowClobber; Import-Module PnP.PowerShell; Get-Module PnP.PowerShell | Select-Object Name,Version,Path\n                                                                                \nName           Version Path\n----           ------- ----\nPnP.PowerShell 3.2.0   C:\\Users\\adamw\\Documents\\PowerShell\\Modules\\PnP.PowerSh…\n\n adamw@R2D2  D:  clean-folder  $ErrorActionPreference = 'Stop'; Import-Module PnP.PowerShell; Connect-PnPOnline -Url 'https://tenanttocheck.sharepoint.com/sites/PnP-PowerShell-Agent-Test' -Interactive -ReturnConnection | Format-List Url,ConnectionType,ClientId,TenantAdminUrl\n\n\n\n\n"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "0000000000000016",
+              "parentSpanId": "0000000000000001",
+              "name": "chat:gpt-5.5",
+              "kind": 1,
+              "startTimeUnixNano": "1781815539545000000",
+              "endTimeUnixNano": "1781815560654000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "chat"
+                  }
+                },
+                {
+                  "key": "gen_ai.request.model",
+                  "value": {
+                    "stringValue": "gpt-5.5"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.input_tokens",
+                  "value": {
+                    "intValue": "17186"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.output_tokens",
+                  "value": {
+                    "intValue": "1139"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "agent-msg-0000000000000016",
+              "parentSpanId": "0000000000000001",
+              "name": "agent_response",
+              "kind": 1,
+              "startTimeUnixNano": "1781815560654000000",
+              "endTimeUnixNano": "1781815560654000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_end-0000000000000001-4",
+              "name": "turn_end:4",
+              "kind": 1,
+              "startTimeUnixNano": "1781815560666000000",
+              "endTimeUnixNano": "1781815560666000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "0000000000000017",
+              "name": "user_message",
+              "kind": 1,
+              "startTimeUnixNano": "1781815568389000000",
+              "endTimeUnixNano": "1781815568389000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_start-0000000000000017-0",
+              "name": "turn_start:0",
+              "kind": 1,
+              "startTimeUnixNano": "1781815568390000000",
+              "endTimeUnixNano": "1781815568390000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "76f6be90-ea63-4b52-addb-c348f5f7f180",
+              "name": "Resolve Customizations",
+              "kind": 1,
+              "startTimeUnixNano": "1781815568384000000",
+              "endTimeUnixNano": "1781815568384000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                },
+                {
+                  "key": "copilot_chat.event_details",
+                  "value": {
+                    "stringValue": "Resolved 1 customizations (1 listed) in 202.0ms | [skipped] init — model invocation disabled, [skipped] create-prompt — model invocation disabled, [skipped] create-instructions — model invocation disabled, [skipped] create-skill — model invocation disabled, [skipped] create-agent — model invocation disabled, [skipped] create-hook — model invocation disabled, [skill] generate-marketing-posts — plugin, [skill] gh-pr-review — plugin, [skill] local-pr-review — plugin, [skill] project-setup-info-local — extension, [skill] get-search-view-results — extension, [skill] troubleshoot — extension, [skill] agent-customization — extension, [skill] summarize-github-issue-pr-notification — extension, [skill] suggest-fix-issue — extension, [skill] form-github-search-query — extension, [skill] show-github-search-result — extension, [skill] address-pr-comments — extension, [skill] create-pull-request — extension, [skill] analyze-prompt — extension, [skill] fix-customization-evaluation-diagnostics — extension, [skipped] Plan — not invocable by model, [skipped] Ask — not invocable by model, [custom-agent] Explore, [custom-agent] co-maintainer"
+                  }
+                },
+                {
+                  "key": "copilot_chat.event_category",
+                  "value": {
+                    "stringValue": "customization"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "0000000000000019",
+              "parentSpanId": "0000000000000017",
+              "name": "manage_todo_list",
+              "kind": 1,
+              "startTimeUnixNano": "1781815568432000000",
+              "endTimeUnixNano": "1781815568434000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "manage_todo_list"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.arguments",
+                  "value": {
+                    "stringValue": "{\"operation\":\"read\",\"chatSessionResource\":{\"$mid\":1,\"external\":\"vscode-chat-session://local/ODhlZmNhODgtNWJjNi00NGVkLTgzNWMtNTM3ZjViNmIxNDY0\",\"path\":\"/ODhlZmNhODgtNWJjNi00NGVkLTgzNWMtNTM3ZjViNmIxNDY0\",\"scheme\":\"vscode-chat-session\",\"authority\":\"local\"}}"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "stringValue": "No todo list found."
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "000000000000001a",
+              "parentSpanId": "0000000000000017",
+              "name": "chat:gpt-5.5",
+              "kind": 1,
+              "startTimeUnixNano": "1781815568496000000",
+              "endTimeUnixNano": "1781815571091000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "chat"
+                  }
+                },
+                {
+                  "key": "gen_ai.request.model",
+                  "value": {
+                    "stringValue": "gpt-5.5"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.input_tokens",
+                  "value": {
+                    "intValue": "17150"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.output_tokens",
+                  "value": {
+                    "intValue": "90"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "agent-msg-000000000000001a",
+              "parentSpanId": "0000000000000017",
+              "name": "agent_response",
+              "kind": 1,
+              "startTimeUnixNano": "1781815571091000000",
+              "endTimeUnixNano": "1781815571091000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_end-0000000000000017-0",
+              "name": "turn_end:0",
+              "kind": 1,
+              "startTimeUnixNano": "1781815571106000000",
+              "endTimeUnixNano": "1781815571106000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_start-0000000000000017-1",
+              "name": "turn_start:1",
+              "kind": 1,
+              "startTimeUnixNano": "1781815571106000000",
+              "endTimeUnixNano": "1781815571106000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "000000000000001b",
+              "parentSpanId": "0000000000000017",
+              "name": "get_terminal_output",
+              "kind": 1,
+              "startTimeUnixNano": "1781815571125000000",
+              "endTimeUnixNano": "1781815571127000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "get_terminal_output"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.arguments",
+                  "value": {
+                    "stringValue": "{\"id\":\"8bd03a21-6d9a-40be-8d9e-9ec5e23517ca\"}"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "stringValue": "Output of terminal 8bd03a21-6d9a-40be-8d9e-9ec5e23517ca:\n adamw@R2D2  D:  clean-folder  $PSVersionTable.PSVersion | Format-List; Get-Command pwsh -ErrorAction SilentlyContinue | Select-Object -ExpandProperty Source; Get-Module -ListAvailable PnP.PowerShell | Sort-Object Version -Descending | Select-Object -First 1 Name,Version,Path\n\nMajor           : 7\nMinor           : 5\nPatch           : 5\nPreReleaseLabel : \nBuildLabel      : \n\nC:\\Program Files\\PowerShell\\7\\pwsh.exe\n adamw@R2D2  D:  clean-folder  $ErrorActionPreference = 'Stop'; Set-PSRepository -Name PSGallery -InstallationPolicy Trusted; Install-Module PnP.PowerShell -Scope CurrentUser -Force -AllowClobber; Import-Module PnP.PowerShell; Get-Module PnP.PowerShell | Select-Object Name,Version,Path\n                                                                                \nName           Version Path\n----           ------- ----\nPnP.PowerShell 3.2.0   C:\\Users\\adamw\\Documents\\PowerShell\\Modules\\PnP.PowerSh…\n\n adamw@R2D2  D:  clean-folder  $ErrorActionPreference = 'Stop'; Import-Module PnP.PowerShell; Connect-PnPOnline -Url 'https://tenanttocheck.sharepoint.com/sites/PnP-PowerShell-Agent-Test' -Interactive -ReturnConnection | Format-List Url,ConnectionType,ClientId,TenantAdminUrl\n\n\n\n\n"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "000000000000001c",
+              "parentSpanId": "0000000000000017",
+              "name": "chat:gpt-5.5",
+              "kind": 1,
+              "startTimeUnixNano": "1781815571151000000",
+              "endTimeUnixNano": "1781815577971000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "chat"
+                  }
+                },
+                {
+                  "key": "gen_ai.request.model",
+                  "value": {
+                    "stringValue": "gpt-5.5"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.input_tokens",
+                  "value": {
+                    "intValue": "17632"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.output_tokens",
+                  "value": {
+                    "intValue": "272"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "agent-msg-000000000000001c",
+              "parentSpanId": "0000000000000017",
+              "name": "agent_response",
+              "kind": 1,
+              "startTimeUnixNano": "1781815577971000000",
+              "endTimeUnixNano": "1781815577971000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_end-0000000000000017-1",
+              "name": "turn_end:1",
+              "kind": 1,
+              "startTimeUnixNano": "1781815577984000000",
+              "endTimeUnixNano": "1781815577984000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_start-0000000000000017-2",
+              "name": "turn_start:2",
+              "kind": 1,
+              "startTimeUnixNano": "1781815577984000000",
+              "endTimeUnixNano": "1781815577984000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "000000000000001f",
+              "parentSpanId": "0000000000000017",
+              "name": "kill_terminal",
+              "kind": 1,
+              "startTimeUnixNano": "1781815578007000000",
+              "endTimeUnixNano": "1781815578014000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "kill_terminal"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.arguments",
+                  "value": {
+                    "stringValue": "{\"id\":\"8bd03a21-6d9a-40be-8d9e-9ec5e23517ca\"}"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "stringValue": "Successfully killed persistent terminal 8bd03a21-6d9a-40be-8d9e-9ec5e23517ca. Final output before termination:\n adamw@R2D2  D:  clean-folder  $PSVersionTable.PSVersion | Format-List; Get-Command pwsh -ErrorAction SilentlyContinue | Select-Object -ExpandProperty Source; Get-Module -ListAvailable PnP.PowerShell | Sort-Object Version -Descending | Select-Object -First 1 Name,Version,Path\n\nMajor           : 7\nMinor           : 5\nPatch           : 5\nPreReleaseLabel : \nBuildLabel      : \n\nC:\\Program Files\\PowerShell\\7\\pwsh.exe\n adamw@R2D2  D:  clean-folder  $ErrorActionPreference = 'Stop'; Set-PSRepository -Name PSGallery -InstallationPolicy Trusted; Install-Module PnP.PowerShell -Scope CurrentUser -Force -AllowClobber; Import-Module PnP.PowerShell; Get-Module PnP.PowerShell | Select-Object Name,Version,Path\n                                                                                \nName           Version Path\n----           ------- ----\nPnP.PowerShell 3.2.0   C:\\Users\\adamw\\Documents\\PowerShell\\Modules\\PnP.PowerSh…\n\n adamw@R2D2  D:  clean-folder  $ErrorActionPreference = 'Stop'; Import-Module PnP.PowerShell; Connect-PnPOnline -Url 'https://tenanttocheck.sharepoint.com/sites/PnP-PowerShell-Agent-Test' -Interactive -ReturnConnection | Format-List Url,ConnectionType,ClientId,TenantAdminUrl\n\n\n\n\n"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "0000000000000020",
+              "parentSpanId": "0000000000000017",
+              "name": "chat:gpt-5.5",
+              "kind": 1,
+              "startTimeUnixNano": "1781815578038000000",
+              "endTimeUnixNano": "1781815581361000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "chat"
+                  }
+                },
+                {
+                  "key": "gen_ai.request.model",
+                  "value": {
+                    "stringValue": "gpt-5.5"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.input_tokens",
+                  "value": {
+                    "intValue": "18301"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.output_tokens",
+                  "value": {
+                    "intValue": "178"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "agent-msg-0000000000000020",
+              "parentSpanId": "0000000000000017",
+              "name": "agent_response",
+              "kind": 1,
+              "startTimeUnixNano": "1781815581361000000",
+              "endTimeUnixNano": "1781815581361000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_end-0000000000000017-2",
+              "name": "turn_end:2",
+              "kind": 1,
+              "startTimeUnixNano": "1781815581372000000",
+              "endTimeUnixNano": "1781815581372000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_start-0000000000000017-3",
+              "name": "turn_start:3",
+              "kind": 1,
+              "startTimeUnixNano": "1781815581372000000",
+              "endTimeUnixNano": "1781815581372000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "0000000000000021",
+              "parentSpanId": "0000000000000017",
+              "name": "run_in_terminal",
+              "kind": 1,
+              "startTimeUnixNano": "1781815581400000000",
+              "endTimeUnixNano": "1781815583716000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "run_in_terminal"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.arguments",
+                  "value": {
+                    "stringValue": "{\"command\":\"Import-Module PnP.PowerShell; Get-Command Connect-PnPOnline,Register-PnPEntraIDAppForInteractiveLogin -ErrorAction SilentlyContinue | Select-Object Name,Version,Source; (Get-Command Connect-PnPOnline).ParameterSets | Select-Object Name,@{Name='Parameters';Expression={$_.Parameters.Name -join ', '}} | Format-List\",\"explanation\":\"Inspect PnP.PowerShell connection parameter sets and app registration helper availability.\",\"goal\":\"Inspect PnP auth options\",\"mode\":\"sync\",\"timeout\":120000}"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "stringValue": "\nName                                      Version Source\n----                                      ------- ------\nConnect-PnPOnline                         3.2.0   PnP.PowerShell\nRegister-PnPEntraIDAppForInteractiveLogin 3.2.0   PnP.PowerShell\n\n\nName       : Interactive login for Multi Factor Authentication\nParameters : ReturnConnection, ValidateConnection, Url, Connection, \n             CreateDrive, DriveName, ClientId, Tenant, AzureEnvironment, \n             TenantAdminUrl, ForceAuthentication, Interactive, \n             MicrosoftGraphEndPoint, AzureADLoginEndPoint, PersistLogin, \n             Verbose, Debug, ErrorAction, WarningAction, InformationAction, \n             ProgressAction, ErrorVariable, WarningVariable, \n             InformationVariable, OutVariable, OutBuffer, PipelineVariable\n\nName       : Credentials\nParameters : ReturnConnection, ValidateConnection, Url, Connection, \n             Credentials, CurrentCredentials, CreateDrive, DriveName, \n             ClientId, RedirectUri, AzureEnvironment, TenantAdminUrl, \n             TransformationOnPrem, MicrosoftGraphEndPoint, \n             AzureADLoginEndPoint, PersistLogin, Verbose, Debug, ErrorAction, \n             WarningAction, InformationAction, ProgressAction, ErrorVariable, \n             WarningVariable, InformationVariable, OutVariable, OutBuffer, \n             PipelineVariable\n\nName       : SharePoint ACS (Legacy) App Only\nParameters : ReturnConnection, ValidateConnection, Url, Connection, Realm, \n             ClientSecret, CreateDrive, DriveName, ClientId, AzureEnvironment, \n             TenantAdminUrl, MicrosoftGraphEndPoint, AzureADLoginEndPoint, \n             Verbose, Debug, ErrorAction, WarningAction, InformationAction, \n             ProgressAction, ErrorVariable, WarningVariable, \n             InformationVariable, OutVariable, OutBuffer, PipelineVariable\n\nName       : App-Only with Azure Active Directory\nParameters : ReturnConnection, ValidateConnection, Url, Connection, \n             CreateDrive, DriveName, ClientId, Tenant, CertificatePath, \n             CertificateBase64Encoded, X509KeyStorageFlags, \n             CertificatePassword, AzureEnvironment, TenantAdminUrl, \n             MicrosoftGraphEndPoint, AzureADLoginEndPoint, Verbose, Debug, \n             ErrorAction, WarningAction, InformationAction, ProgressAction, \n             ErrorVariable, WarningVariable, InformationVariable, OutVariable, \n             OutBuffer, PipelineVariable\n\nName       : App-Only with Azure Active Directory using a certificate from the \n             Windows Certificate Management Store by thumbprint\nParameters : ReturnConnection, ValidateConnection, Url, Connection, \n             CreateDrive, DriveName, ClientId, Tenant, Thumbprint, \n             AzureEnvironment, TenantAdminUrl, MicrosoftGraphEndPoint, \n             AzureADLoginEndPoint, Verbose, Debug, ErrorAction, WarningAction, \n             InformationAction, ProgressAction, ErrorVariable, \n             WarningVariable, InformationVariable, OutVariable, OutBuffer, \n             PipelineVariable\n\nName       : PnP Management Shell / DeviceLogin\nParameters : ReturnConnection, ValidateConnection, Url, Connection, \n             CreateDrive, DriveName, DeviceLogin, ClientId, Tenant, \n             AzureEnvironment, MicrosoftGraphEndPoint, AzureADLoginEndPoint, \n             PersistLogin, Verbose, Debug, ErrorAction, WarningAction, \n             InformationAction, ProgressAction, ErrorVariable, \n             WarningVariable, InformationVariable, OutVariable, OutBuffer, \n             PipelineVariable\n\nName       : Access Token\nParameters : ReturnConnection, ValidateConnection, Url, AzureEnvironment, \n             AccessToken, MicrosoftGraphEndPoint, AzureADLoginEndPoint, \n             Verbose, Debug, ErrorAction, WarningAction, InformationAction, \n             ProgressAction, ErrorVariable, WarningVariable, \n             InformationVariable, OutVariable, OutBuffer, PipelineVariable\n\nName       : Environment Variable\nParameters : ReturnConnection, ValidateConnection, Url, Connection, \n             CreateDrive, DriveName, RedirectUri, Tenant, X509KeyStorageFlags, \n             AzureEnvironment, TenantAdminUrl, TransformationOnPrem, \n             EnvironmentVariable, MicrosoftGraphEndPoint, \n             AzureADLoginEndPoint, Verbose, Debug, ErrorAction, WarningAction, \n             InformationAction, ProgressAction, ErrorVariable, \n             WarningVariable, InformationVariable, OutVariable, OutBuffer, \n             PipelineVariable\n\nName       : System Assigned Managed Identity\nParameters : ReturnConnection, ValidateConnection, Url, AzureEnvironment, \n             ManagedIdentity, MicrosoftGraphEndPoint, AzureADLoginEndPoint, \n             Verbose, Debug, ErrorAction, WarningAction, InformationAction, \n             ProgressAction, ErrorVariable, WarningVariable, \n             InformationVariable, OutVariable, OutBuffer, PipelineVariable\n\nName       : User Assigned Managed Identity by Client Id\nParameters[truncated]"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "0000000000000022",
+              "parentSpanId": "0000000000000017",
+              "name": "chat:gpt-5.5",
+              "kind": 1,
+              "startTimeUnixNano": "1781815583750000000",
+              "endTimeUnixNano": "1781815588857000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "chat"
+                  }
+                },
+                {
+                  "key": "gen_ai.request.model",
+                  "value": {
+                    "stringValue": "gpt-5.5"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.input_tokens",
+                  "value": {
+                    "intValue": "19988"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.output_tokens",
+                  "value": {
+                    "intValue": "288"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "agent-msg-0000000000000022",
+              "parentSpanId": "0000000000000017",
+              "name": "agent_response",
+              "kind": 1,
+              "startTimeUnixNano": "1781815588857000000",
+              "endTimeUnixNano": "1781815588857000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_end-0000000000000017-3",
+              "name": "turn_end:3",
+              "kind": 1,
+              "startTimeUnixNano": "1781815588867000000",
+              "endTimeUnixNano": "1781815588867000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_start-0000000000000017-4",
+              "name": "turn_start:4",
+              "kind": 1,
+              "startTimeUnixNano": "1781815588867000000",
+              "endTimeUnixNano": "1781815588867000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "0000000000000025",
+              "parentSpanId": "0000000000000017",
+              "name": "run_in_terminal",
+              "kind": 1,
+              "startTimeUnixNano": "1781815588897000000",
+              "endTimeUnixNano": "1781815591333000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "run_in_terminal"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.arguments",
+                  "value": {
+                    "stringValue": "{\"command\":\"$ErrorActionPreference = 'Stop'; Import-Module PnP.PowerShell; Connect-PnPOnline -Url 'https://tenanttocheck.sharepoint.com/sites/PnP-PowerShell-Agent-Test' -DeviceLogin -ValidateConnection -ReturnConnection | Format-List Url,ConnectionType,ClientId,Tenant\",\"explanation\":\"Retry the PnP connection using device-code authentication, which is less dependent on local browser redirect behavior.\",\"goal\":\"Retry PnP SharePoint connection\",\"mode\":\"sync\",\"timeout\":300000}"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "stringValue": "WARNING: AADSTS700016: Application with identifier '3029164d-9e9a-4d87-8152-88ea0b78f722' was not found in the directory 'tenanttocheck'. This can happen if the application has not been installed by the administrator of the tenant or consented to by any user in the tenant. You may have sent your authentication request to the wrong tenant. Trace ID: 743afe40-d33c-4554-8c57-1ea163431400 Correlation ID: ee7f3d6b-2b14-4d92-96da-986cc0f447ad Timestamp: 2026-06-18 20:46:31Z\nConnect-PnPOnline: Unable to connect using provided arguments\n\nCommand exited with code 1"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "0000000000000026",
+              "parentSpanId": "0000000000000017",
+              "name": "chat:gpt-5.5",
+              "kind": 1,
+              "startTimeUnixNano": "1781815591385000000",
+              "endTimeUnixNano": "1781815595916000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "chat"
+                  }
+                },
+                {
+                  "key": "gen_ai.request.model",
+                  "value": {
+                    "stringValue": "gpt-5.5"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.input_tokens",
+                  "value": {
+                    "intValue": "20463"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.output_tokens",
+                  "value": {
+                    "intValue": "242"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "agent-msg-0000000000000026",
+              "parentSpanId": "0000000000000017",
+              "name": "agent_response",
+              "kind": 1,
+              "startTimeUnixNano": "1781815595916000000",
+              "endTimeUnixNano": "1781815595916000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_end-0000000000000017-4",
+              "name": "turn_end:4",
+              "kind": 1,
+              "startTimeUnixNano": "1781815595941000000",
+              "endTimeUnixNano": "1781815595941000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_start-0000000000000017-5",
+              "name": "turn_start:5",
+              "kind": 1,
+              "startTimeUnixNano": "1781815595941000000",
+              "endTimeUnixNano": "1781815595941000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "0000000000000029",
+              "parentSpanId": "0000000000000017",
+              "name": "run_in_terminal",
+              "kind": 1,
+              "startTimeUnixNano": "1781815596012000000",
+              "endTimeUnixNano": "1781815597593000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "run_in_terminal"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.arguments",
+                  "value": {
+                    "stringValue": "{\"command\":\"Import-Module PnP.PowerShell; Get-Help Register-PnPEntraIDAppForInteractiveLogin -Detailed | Out-String -Width 220\",\"explanation\":\"Read local help for the PnP Entra ID app registration helper to identify required parameters.\",\"goal\":\"Inspect app registration command\",\"mode\":\"sync\",\"timeout\":120000}"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "stringValue": "\nNAME\n    Register-PnPEntraIDAppForInteractiveLogin\n    \nSYNOPSIS\n    Registers an Entra ID App for use with Interactive login\n    \n    \nSYNTAX\n    Register-PnPEntraIDAppForInteractiveLogin -ApplicationName <String> [-AzureEnvironment <AzureEnvironment>] [-DeviceLogin <SwitchParameter>] [-EntraIDLoginEndPoint <String>] [-LogoFilePath <String>] \n    [-MicrosoftGraphEndPoint <String>] -Tenant <String> [<CommonParameters>]\n    \n    Register-PnPEntraIDAppForInteractiveLogin -ApplicationName <String> [-AzureEnvironment <AzureEnvironment>] [-DeviceLogin <SwitchParameter>] [-EntraIDLoginEndPoint <String>] [-LogoFilePath <String>] \n    [-MicrosoftGraphEndPoint <String>] -Tenant <String> [<CommonParameters>]\n    \n    \nDESCRIPTION\n    Registers an Entra ID App for use with the interactive login on Connect-PnPOnline. By default it assumes an Interactive login, but you can decide to use Device Login auth by specifying -DeviceLogin.\n    \n\nPARAMETERS\n    -ApplicationName <String>\n        The name of the Entra ID Application to create.\n        \n    -AzureEnvironment [<AzureEnvironment>]\n        The Azure environment to use for authentication, the defaults to 'Production' which is the main Azure environment.\n        \n    -DeviceLogin [<SwitchParameter>]\n        If specified, a device login flow, supporting Multi-Factor Authentication will be used to authenticate towards the Microsoft Graph.\n        \n    -EntraIDLoginEndPoint [<String>]\n        Sets the EntraID login endpoint to be used for creation of the app. This only works if Azure Environment parameter is set to `Custom`\n        \n    -GraphApplicationPermissions [<Permission[]>]\n        Specify which Microsoft Graph Application permissions to request.\n        \n    -GraphDelegatePermissions [<Permission[]>]\n        Specify which Microsoft Graph Delegate permissions to request.\n        \n    -LogoFilePath [<String>]\n        Sets the logo for the Entra ID application. Provide a full path to a local image file on your disk which you want to use as the logo.\n        \n    -MicrosoftGraphEndPoint [<String>]\n        Sets the Microsoft Graph endpoint to be used for creation of the app. This only works if Azure Environment parameter is set to `Custom`\n        \n    -SharePointApplicationPermissions [<Permission[]>]\n        Specify which Microsoft SharePoint Application permissions to request.\n        \n    -SharePointDelegatePermissions [<Permission[]>]\n        Specify which Microsoft SharePoint Delegate permissions to request.\n        \n    -SignInAudience [<String>]\n        Sets the sign in audience. Use this to make the app support Single tenant accounts, Multi-tenant accounts, Multi-tenant + personal accounts & personal accounts only.\n        \n    -Tenant <String>\n        The identifier of your tenant, e.g. mytenant.onmicrosoft.com\n        \n    <CommonParameters>\n        This cmdlet supports the common parameters: Verbose, Debug,\n        ErrorAction, ErrorVariable, WarningAction, WarningVariable,\n        OutBuffer, PipelineVariable, and OutVariable. For more information, see\n        about_CommonParameters (https://go.microsoft.com/fwlink/?LinkID=113216). \n    \n    --------- EXAMPLE 1 ---------\n    \n    ```powershell\n    Register-PnPEntraIDAppForInteractiveLogin -ApplicationName TestApp -Tenant yourtenant.onmicrosoft.com\n    ```\n    Creates a new Entra ID Application registration. The application will be setup with the following delegate permissions to consent: AllSites.FullControl, Group.ReadWrite.All, User.ReadWrite.All, \n    TermStore.ReadWrite.All. A browser window will be shown allowing you to authenticate.\n    \n     --------- EXAMPLE 2 ---------\n    \n    ```powershell\n    Register-PnPEntraIDAppForInteractiveLogin -ApplicationName TestApp -Tenant yourtenant.onmicrosoft.com -GraphDelegatePermissions \"Group.Read.All\" -SharePointDelegatePermissions \"AllSites.FullControl\"\n    ```\n    Creates a new Entra ID Application registration. The application will be setup with the following delegate permissions to consent: Group.Read.All, AllSites.FullControl. A browser window will be shown allowing you to \n    authenticate.\n    \n REMARKS\n    To see the examples, type: \"Get-Help Register-PnPEntraIDAppForInteractiveLogin -Examples\"\n    For more information, type: \"Get-Help Register-PnPEntraIDAppForInteractiveLogin -Detailed\"\n    For technical information, type: \"Get-Help Register-PnPEntraIDAppForInteractiveLogin -Full\"\n    For online help, type: \"Get-Help Register-PnPEntraIDAppForInteractiveLogin -Online\""
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "000000000000002a",
+              "parentSpanId": "0000000000000017",
+              "name": "chat:gpt-5.5",
+              "kind": 1,
+              "startTimeUnixNano": "1781815597627000000",
+              "endTimeUnixNano": "1781815603805000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "chat"
+                  }
+                },
+                {
+                  "key": "gen_ai.request.model",
+                  "value": {
+                    "stringValue": "gpt-5.5"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.input_tokens",
+                  "value": {
+                    "intValue": "21698"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.output_tokens",
+                  "value": {
+                    "intValue": "339"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "agent-msg-000000000000002a",
+              "parentSpanId": "0000000000000017",
+              "name": "agent_response",
+              "kind": 1,
+              "startTimeUnixNano": "1781815603805000000",
+              "endTimeUnixNano": "1781815603805000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_end-0000000000000017-5",
+              "name": "turn_end:5",
+              "kind": 1,
+              "startTimeUnixNano": "1781815603823000000",
+              "endTimeUnixNano": "1781815603823000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_start-0000000000000017-6",
+              "name": "turn_start:6",
+              "kind": 1,
+              "startTimeUnixNano": "1781815603823000000",
+              "endTimeUnixNano": "1781815603823000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "000000000000002d",
+              "parentSpanId": "0000000000000017",
+              "name": "run_in_terminal",
+              "kind": 1,
+              "startTimeUnixNano": "1781815603856000000",
+              "endTimeUnixNano": "1781815692260000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "run_in_terminal"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.arguments",
+                  "value": {
+                    "stringValue": "{\"command\":\"$ErrorActionPreference = 'Stop'; Import-Module PnP.PowerShell; Register-PnPEntraIDAppForInteractiveLogin -ApplicationName 'PnP PowerShell Local' -Tenant 'tenanttocheck.onmicrosoft.com' -DeviceLogin\",\"explanation\":\"Register an Entra ID application for PnP PowerShell interactive/device-login authentication in the target tenant.\",\"goal\":\"Register PnP Entra app\",\"mode\":\"sync\",\"timeout\":300000}"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "stringValue": "WARNING: \n No permissions specified, using default permissions                     \n\n\nWARNING: \n Please login.                                                           \n                                                                         \n We opened a browser and navigated to https://login.microsoft.com/device \n                                                                         \n Enter code: LLSXMYZ5L (we copied this code to your clipboard)           \n                                                                         \n NOTICE: close the browser tab after you authenticated successfully to   \n continue the process.                                                   \n\n\nChecking if application 'PnP PowerShell Local' does not exist yet...Success. Application 'PnP PowerShell Local' can be registered.\nApp PnP PowerShell Local with id 67f6986d-3afa-41ad-b07b-e37550c3109a created.\nWARNING:                                                                        \n\nPlease login.\n\nWe opened a browser and navigated to https://login.microsoft.com/device\n\nEnter code: AN4GKFUPR (we copied this code to your clipboard)\n\nNOTICE: close the browser tab after you authenticated successfully to continue the process.\nApp created. You can now connect to your tenant using Connect-PnPOnline -Url <yourtenanturl> -ClientId 67f6986d-3afa-41ad-b07b-e37550c3109a\n\nAzureAppId/ClientId\n-------------------\n67f6986d-3afa-41ad-b07b-e37550c3109a"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "000000000000002e",
+              "parentSpanId": "0000000000000017",
+              "name": "chat:gpt-5.5",
+              "kind": 1,
+              "startTimeUnixNano": "1781815692621000000",
+              "endTimeUnixNano": "1781815697518000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "chat"
+                  }
+                },
+                {
+                  "key": "gen_ai.request.model",
+                  "value": {
+                    "stringValue": "gpt-5.5"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.input_tokens",
+                  "value": {
+                    "intValue": "22327"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.output_tokens",
+                  "value": {
+                    "intValue": "294"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "agent-msg-000000000000002e",
+              "parentSpanId": "0000000000000017",
+              "name": "agent_response",
+              "kind": 1,
+              "startTimeUnixNano": "1781815697518000000",
+              "endTimeUnixNano": "1781815697518000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_end-0000000000000017-6",
+              "name": "turn_end:6",
+              "kind": 1,
+              "startTimeUnixNano": "1781815697529000000",
+              "endTimeUnixNano": "1781815697529000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_start-0000000000000017-7",
+              "name": "turn_start:7",
+              "kind": 1,
+              "startTimeUnixNano": "1781815697529000000",
+              "endTimeUnixNano": "1781815697529000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "0000000000000031",
+              "parentSpanId": "0000000000000017",
+              "name": "run_in_terminal",
+              "kind": 1,
+              "startTimeUnixNano": "1781815697561000000",
+              "endTimeUnixNano": "1781815722752000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "run_in_terminal"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.arguments",
+                  "value": {
+                    "stringValue": "{\"command\":\"$ErrorActionPreference = 'Stop'; Import-Module PnP.PowerShell; $connection = Connect-PnPOnline -Url 'https://tenanttocheck.sharepoint.com/sites/PnP-PowerShell-Agent-Test' -ClientId '67f6986d-3afa-41ad-b07b-e37550c3109a' -DeviceLogin -ValidateConnection -ReturnConnection; $web = Get-PnPWeb -Connection $connection -Includes Title,Url; [pscustomobject]@{ConnectedUrl=$connection.Url; ConnectionType=$connection.ConnectionType; ClientId=$connection.ClientId; WebTitle=$web.Title; WebUrl=$web.Url} | Format-List\",\"explanation\":\"Connect to the target SharePoint site using the newly registered PnP Entra app and validate by reading the web title and URL.\",\"goal\":\"Validate SharePoint connection\",\"mode\":\"sync\",\"timeout\":300000}"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "stringValue": "WARNING: \n                                                                         \n                                                                         \n Code EZ5NWUH76 has been copied to your clipboard and a new tab in the   \n browser has been opened. Please paste this code in there and proceed.   \n                                                                         \n                                                                         \n\n\n\nConnectedUrl   : https://tenanttocheck.sharepoint.com/sites/PnP-PowerShell-Agen\n                 t-Test\nConnectionType : O365\nClientId       : 67f6986d-3afa-41ad-b07b-e37550c3109a\nWebTitle       : PnP-PowerShell-Agent-Test\nWebUrl         : https://tenanttocheck.sharepoint.com/sites/PnP-PowerShell-Agen\n                 t-Test"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "0000000000000032",
+              "parentSpanId": "0000000000000017",
+              "name": "chat:gpt-5.5",
+              "kind": 1,
+              "startTimeUnixNano": "1781815723059000000",
+              "endTimeUnixNano": "1781815733169000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "chat"
+                  }
+                },
+                {
+                  "key": "gen_ai.request.model",
+                  "value": {
+                    "stringValue": "gpt-5.5"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.input_tokens",
+                  "value": {
+                    "intValue": "22779"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.output_tokens",
+                  "value": {
+                    "intValue": "550"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "agent-msg-0000000000000032",
+              "parentSpanId": "0000000000000017",
+              "name": "agent_response",
+              "kind": 1,
+              "startTimeUnixNano": "1781815733169000000",
+              "endTimeUnixNano": "1781815733169000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_end-0000000000000017-7",
+              "name": "turn_end:7",
+              "kind": 1,
+              "startTimeUnixNano": "1781815733180000000",
+              "endTimeUnixNano": "1781815733180000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_start-0000000000000017-8",
+              "name": "turn_start:8",
+              "kind": 1,
+              "startTimeUnixNano": "1781815733180000000",
+              "endTimeUnixNano": "1781815733180000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "0000000000000035",
+              "parentSpanId": "0000000000000017",
+              "name": "run_in_terminal",
+              "kind": 1,
+              "startTimeUnixNano": "1781815733205000000",
+              "endTimeUnixNano": "1781815751351000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "run_in_terminal"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.arguments",
+                  "value": {
+                    "stringValue": "{\"command\":\"$ErrorActionPreference = 'Stop'; Import-Module PnP.PowerShell; Connect-PnPOnline -Url 'https://tenanttocheck.sharepoint.com/sites/PnP-PowerShell-Agent-Test' -ClientId '67f6986d-3afa-41ad-b07b-e37550c3109a' -DeviceLogin -PersistLogin -ValidateConnection; Get-PnPConnection | Select-Object Url,ConnectionType,ClientId | Format-List\",\"explanation\":\"Set the active PnP connection in the terminal session and persist the login for easier reuse.\",\"goal\":\"Persist PnP connection\",\"mode\":\"sync\",\"timeout\":300000}"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "stringValue": "WARNING: \n                                                                         \n                                                                         \n Code AVVGLA8JX has been copied to your clipboard and a new tab in the   \n browser has been opened. Please paste this code in there and proceed.   \n                                                                         \n                                                                         \n\n\n\nUrl            : https://tenanttocheck.sharepoint.com/sites/PnP-PowerShell-Agen\n                 t-Test\nConnectionType : O365\nClientId       : 67f6986d-3afa-41ad-b07b-e37550c3109a"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "0000000000000036",
+              "parentSpanId": "0000000000000017",
+              "name": "chat:gpt-5.5",
+              "kind": 1,
+              "startTimeUnixNano": "1781815751703000000",
+              "endTimeUnixNano": "1781815756829000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "chat"
+                  }
+                },
+                {
+                  "key": "gen_ai.request.model",
+                  "value": {
+                    "stringValue": "gpt-5.5"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.input_tokens",
+                  "value": {
+                    "intValue": "23449"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.output_tokens",
+                  "value": {
+                    "intValue": "369"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "agent-msg-0000000000000036",
+              "parentSpanId": "0000000000000017",
+              "name": "agent_response",
+              "kind": 1,
+              "startTimeUnixNano": "1781815756829000000",
+              "endTimeUnixNano": "1781815756829000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_end-0000000000000017-8",
+              "name": "turn_end:8",
+              "kind": 1,
+              "startTimeUnixNano": "1781815756834000000",
+              "endTimeUnixNano": "1781815756834000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "copilotChat": {
+    "exportedAt": "2026-06-18T20:50:45.035Z",
+    "exporterVersion": "",
+    "sessionId": "88efca88-5bc6-44ed-835c-537f5b6b1464",
+    "sessionTitle": "Set up PnP PowerShell environment"
+  }
+}
