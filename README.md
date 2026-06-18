@@ -34,3 +34,4 @@ The tests used the following harness to run the tests and collect the results:
 - Context7 is only used when specified in the prompt by name, otherwise Copilot ignores and does not use it
 - From Cached tokens point of view it's best that the biggest prompt with most context be one of the first ones to be run, and all other prompts in the conversations should be follow up or Copilot question answers that best do not influence the tooling. 
 - Changing model in the middle of the chat conversation resets the token cache
+- Anthropic are the only models that charge different amount for cache writes. This is tricky as VS Code agent debug view does not show cache writes, only cache inputs.
